@@ -1,0 +1,22 @@
+# Private build artifacts — never commit
+mining-log.md
+
+# OS / editor noise
+.DS_Store
+.idea/
+.vscode/
+.zed/
+
+# Node (in case tooling lands here later)
+node_modules/
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Reserved for future tests/ or examples/ dirs that may contain user materials.
+# If you add such a dir with real user-submitted content, uncomment these:
+# tests/*.pdf
+# tests/*.png
+# tests/*.jpg
+# examples/*.pdf
+# examples/*.png
