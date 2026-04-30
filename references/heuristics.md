@@ -33,6 +33,8 @@ These are smaller-grain than `common-flags.md`. Common flags are portfolio/resum
 **When it applies:** Case study lists deliverables (wireframes, mockups, prototypes, specs) and treats the artifact list as the result. Cite when a portfolio reads as a deliverable inventory and we want to push the user toward what changed for the user/business.
 **Example flag:** The [project name] case study lists six deliverables and stops. Outcomes, not outputs — what changed for the user when this shipped? Add one paragraph: the metric, the user-facing change, or the business decision the work unlocked.
 
+> **Stream variant (M2):** Sentence-level form. *"This case study isn't going to talk about what you did, it's going to talk about what you achieved."* The stream version operationalizes the published rule at the bullet/title scope, not just the section scope — useful as a sentence-level rewrite move on individual bullets. Source: @designshaped Friday-stream corpus — see mining-log.md (gitignored).
+
 ### "Why is that important?" {#why-is-that-important}
 **Source:** Nate Bauer, "Capturing Brand Drivers." https://nabauer.com/articles/capturing-brand-drivers
 **When it applies:** Case study claims an outcome ("users were happier," "the team adopted it") and stops at the surface benefit. Cite when we want the user to push one layer deeper into why the outcome mattered.
@@ -93,6 +95,8 @@ These are smaller-grain than `common-flags.md`. Common flags are portfolio/resum
 **When it applies:** Case study or portfolio hero opens with technical specs, framework choices, or process diagrams before establishing the human stake. Cite when the work leads with logos when it should lead with pathos.
 **Example flag:** The [project name] case study opens with the technical architecture diagram. Logos last, pathos first — the reader doesn't care about the architecture until they care about the user problem. Move the user moment to the top; the architecture earns its place once the reader is invested.
 
+> **Stream variant (M2):** Resolves the apparent tension with the housekeeping-at-the-top rule (H-S02). Housekeeping (logos-shaped — role, timeline, team, tools) goes at the top of the case study; the *first sentence of the narrative* — the part the human reads — should be the human stake. The two coexist if the case study is structured for the three audiences (H-S01): housekeeping serves the recruiter; the narrative opening serves the hiring manager. Source: @designshaped Friday-stream corpus — see mining-log.md (gitignored).
+
 ### Sell the category before the product {#sell-the-category}
 **Source:** Nate Bauer, "What Aristotle Can Teach Us About Marketing" + "How Ladders Alter Your Marketing Strategies." https://nabauer.com/articles/what-aristotle-can-teach-us-about-marketing
 **When it applies:** User is targeting an emerging or unfamiliar role/domain (AI design, dev tools, B2B fintech) and the portfolio assumes the reader already cares about the domain. Cite when we want them to make the category case before the work case.
@@ -112,6 +116,138 @@ These are smaller-grain than `common-flags.md`. Common flags are portfolio/resum
 **Source:** Nate Bauer, "Capturing Brand Drivers." https://nabauer.com/articles/capturing-brand-drivers
 **When it applies:** Case study shows three sketches and one final solution and presents the path as obvious. Cite when we want the user to surface the bad ideas they killed.
 **Example flag:** Case study shows three options and the chosen one. Quantity over quality in ideation — three options doesn't tell us we explored; thirty does. Either show the wider exploration ("we sketched 24 directions, here are the four we tested") or note the constraint ("scope forced an early narrow"). Bad ideas ruled out is part of the work.
+
+## Stream-mined heuristics (M2 additions)
+
+> 20 heuristics surfaced from 23 @designshaped Friday-stream transcripts (498K words).
+> Speaker-agnostic per D-13 / D-M2-02. Tier 1 consent — paraphrased per D-M2-06.
+> Ordered by recurrence in the corpus (most-cited first). Two stream-variants of Nate's existing heuristics are annotated inline above (under "outcomes and not outputs" and "Logos last, pathos first") rather than listed here.
+
+### H-S01 — Three audiences, every artifact
+Every portfolio/resume has three audiences in order: the recruiter (skims for KSAs and housekeeping), the hiring manager (reads for process and constraints), and future peers (reads About / personality for fit). Every section should be designable for one of the three; if a section serves none of them, cut it.
+**Applies to:** both portfolio and resume; both junior and senior.
+**Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
+**Frequency:** recurring (5+ streams) — most-cited heuristic in the corpus
+
+### H-S02 — Housekeeping at the top of every case study
+Open every case study with a housekeeping block — role, timeline, team formation, industry, tools, scope. Recruiters skim for these factual anchors before they read narrative; missing them means the case study fails the recruiter audience even when it succeeds for hiring managers.
+**Applies to:** portfolio; both junior and senior, most load-bearing for junior portfolios where credibility is unestablished.
+**Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
+**Frequency:** recurring (4+ streams)
+
+### H-S03 — Single-column resume default
+Default resume layout is a single column. Multi-column resumes confuse ATS parsers (which read top-to-bottom, left-to-right and scramble information order) and create skim hierarchy problems for humans. Only deviate if you have a real reason and you've validated the ATS reads it correctly.
+**Applies to:** resume; both junior and senior. Universal default.
+**Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
+**Frequency:** recurring (4+ streams) — taught nearly every stream
+
+### H-S04 — Why-how-what bullet ordering
+Resume experience bullets read strongest in why-how-what order: lead with the impact (the why it mattered or the metric), then the method (how), then the artifact (what). The most impressive thing should be the first thing read on a skim.
+**Applies to:** resume; both junior and senior. Especially load-bearing where the work has metrics but the bullet currently leads with "designed X."
+**Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
+**Frequency:** recurring (4+ streams)
+
+### H-S05 — Picture book over essay
+A case study should read closer to a children's picture book than an essay — content paired with imagery, scannable, with the story carried by titles and visuals, not paragraphs.
+**Applies to:** portfolio; both junior and senior, but most often deployed when reviewing essay-shaped case studies that bury the story in walls of text.
+**Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
+**Frequency:** recurring (3+ streams)
+
+### H-S06 — Copy-paste test for genericness
+If a value prop, summary, or bullet can be copy-pasted onto another designer's portfolio or resume and still read as true, the line isn't earning its place — it's positioning anyone, which means it's positioning no one.
+**Applies to:** both portfolio and resume; both junior and senior. Most useful on hero copy, About paragraphs, and resume summary lines.
+**Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
+**Frequency:** recurring (3+ streams)
+**Cross-ref:** Sharper than [One to five drivers, never more](#one-to-five-drivers) — that's a count rule; this is a substitutability rule.
+
+### H-S07 — Trust ladder
+A portfolio is a trust ladder — each section earns the right to ask the next thing of the reader. If the user is asked to take an action (book a call, view case study, download resume) before the trust has been built, they bounce.
+**Applies to:** portfolio, especially freelance/consultant portfolios with CTAs above the fold; both junior and senior but more diagnostic for senior/freelance.
+**Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
+**Frequency:** recurring (3+ streams)
+**Cross-ref:** Adjacent to [Logos last, pathos first](#logos-last) but distinct — that's an ordering rule for one unit; trust ladder is the cumulative contract across the whole site.
+
+### H-S08 — All-caps fails comprehension
+All-caps text — for names, section headers, role titles — measurably reduces reading speed and comprehension. Use sentence case or title case. Caps for emphasis is fine in micro-doses; caps for whole headers or names is a comprehension cost.
+**Applies to:** both portfolio and resume; both junior and senior.
+**Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
+**Frequency:** recurring (3+ streams)
+
+### H-S09 — Titles-only test
+If a reader could understand the case study by reading only the section titles (no body copy), the case study works; if not, the titles are doing decorative work and need to carry narrative weight.
+**Applies to:** portfolio; both junior and senior. Used as a quick diagnostic on any case study with section headers.
+**Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
+**Frequency:** recurring (2+ streams)
+
+### H-S10 — Show the process, not the feature
+A case study isn't an excuse to show off a feature; the feature is a vehicle for showing process. If the project doesn't let you talk about how you went from problem to solution, don't include it — the feature alone is just a screenshot.
+**Applies to:** portfolio; both junior and senior, but more critical for junior where there's a temptation to lead with shipped UI.
+**Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
+**Frequency:** recurring (2+ streams)
+**Cross-ref:** Partial overlap with ["outcomes and not outputs"](#outcomes-not-outputs). The stream version is sharper on the *feature trap* specifically — the case where a designer writes a case study about a discrete UI improvement and never explains how the decision got made.
+
+### H-S11 — Predict a number when none exists
+When a project has no measured impact (research project, hackathon, NDA-blocked work, internal tool), don't drop the metrics line — predict one. Walk through the reasoning: audience size, frequency, conservative conversion estimate, predicted dollar value. A reasoned prediction is stronger evidence of business literacy than silence.
+**Applies to:** portfolio; both junior and senior, especially junior where most projects lack real shipped metrics.
+**Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
+**Frequency:** recurring (2+ streams)
+**Cross-ref:** ["outcomes and not outputs"](#outcomes-not-outputs) covers what to put in the outcome slot; this covers what to do when the slot is empty. See also `frameworks.md#prototyping-with-numbers`.
+
+### H-S12 — Website is for personality; resume is for the machine
+Personality, voice, character, and brand belong on the portfolio website. The resume is for the ATS — keywords, parseable layout, factual content. Don't try to express personality through resume design; you'll lose ATS parseability and you don't have the surface area anyway.
+**Applies to:** both, but specifically about which artifact gets which workload.
+**Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
+**Frequency:** recurring (2+ streams)
+
+### H-S13 — First case study on the homepage matters most
+The first case study in the homepage grid is the one that gets opened. Treat it as the position with most leverage — put your strongest, most-targeted case study there. The order of projects is a positioning act, not a chronological one.
+**Applies to:** portfolio; both junior and senior, but especially career-switchers who have one strong project and three weaker ones.
+**Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
+**Frequency:** recurring (2+ streams)
+
+### H-S14 — Senior signal lives in housekeeping language, not project count
+Senior portfolios don't need more projects than mid-level portfolios — they need different language in the housekeeping. Lead $40M agile teams, ran design ops across N pods, drove org-level decisions. The senior tell is in *how* the role is described, not in how many shipping artifacts there are.
+**Applies to:** portfolio; senior promotion-track and senior-applying-to-senior.
+**Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
+**Frequency:** recurring (2+ streams)
+**Cross-ref:** Partial overlap with [The UX designer is the Agile facilitator](#ux-designer-is-facilitator) — that names the leadership work; this names *where it lives* on the page.
+
+### H-S15 — Behance and similar platforms serve themselves first
+Portfolio platforms (Behance, Dribbble, similar) optimize for the platform's interests, not the designer's — they capture the contact action, push their subscriptions, and surface other designers as alternatives. Treat them as a satellite, not the home base. The home base is your own domain.
+**Applies to:** portfolio; both junior and senior. Most actionable for designers without their own site yet.
+**Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
+**Frequency:** recurring (2+ streams)
+
+### H-S16 — Don't title a case study after the brand
+Don't title a case study with just the client/product name — that's free advertising for the brand, not for you. Title with the outcome or the problem; the brand goes in the subtitle or housekeeping.
+**Applies to:** portfolio; both junior and senior, especially at junior where logos are doing too much narrative work.
+**Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
+**Frequency:** single-source (reinforced by general "lead with outcome" pattern across other streams)
+
+### H-S17 — Reflection sections decay with seniority
+"What I learned" / "Lessons learned" / reflection sections are higher-yield for junior and early-mid portfolios — they signal humility, growth, and ability to learn. At senior level, they're decorative; senior reviewers expect strategic narrative, not learning logs.
+**Applies to:** portfolio; bias toward junior/mid (keep reflections), senior (de-emphasize or cut).
+**Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
+**Frequency:** single-source (explicit rule)
+
+### H-S18 — Don't put location if you want remote
+Listing a city/region on a resume locks you into that geography for filtering — recruiters and ATS rules will use it as a hard filter. If you're applying remote, leave location off; if you're geo-locked, include it. Don't include location by default.
+**Applies to:** resume; both junior and senior.
+**Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
+**Frequency:** single-source (explicit rule)
+
+### H-S19 — Spell out links for print compatibility
+Don't write "LinkedIn" or "Portfolio" as the visible link text on a resume. Write the full URL. Resumes get printed, parsed, and forwarded outside the original document; opaque link text loses the link.
+**Applies to:** resume; both junior and senior.
+**Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
+**Frequency:** single-source (explicit rule)
+
+### H-S20 — Loud isn't specificity
+A site can be visually loud (animations, big type, color, motion) and still fail to communicate what kind of designer the person is. Loudness is not a substitute for positioning. If the loud version still passes the copy-paste test (H-S06), the loudness is decoration.
+**Applies to:** portfolio; both junior and senior, more common at junior/early portfolios.
+**Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
+**Frequency:** single-source (explicit rule with multiple in-stream examples)
+**Cross-ref:** Partial overlap with [Make a new ladder](#make-a-new-ladder) — both are positioning rules. Stream version is the *visual-craft* corollary: visual energy alone won't do positioning's job.
 
 ## Adding new heuristics (procedure)
 
