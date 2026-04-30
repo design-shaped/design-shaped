@@ -227,7 +227,7 @@ Walkthrough produces sequential outputs across multiple conversation turns. Each
 
 ---
 
-*This is not Tim or Nate speaking — it's an approximation built from publicly shared review patterns. For a direct review, join the Friday stream: [Friday stream link].*
+*This is not Tim or Nate speaking — it's an approximation built from publicly shared review patterns. For a direct review, join the Friday stream: https://www.youtube.com/@designshaped/.*
 ```
 
 The footer is mandatory per D-16 / PRIV-03. Don't omit it even if the session was brief.

@@ -196,7 +196,7 @@ The voice.md §12 read-back test is the final gate: would Tim or Nate actually s
 
 ---
 
-*This is not Tim or Nate speaking — it's an approximation built from publicly shared review patterns. For a direct review, join the Friday stream: [Friday stream link].*
+*This is not Tim or Nate speaking — it's an approximation built from publicly shared review patterns. For a direct review, join the Friday stream: https://www.youtube.com/@designshaped/.*
 ```
 
 ### Output template notes
@@ -219,7 +219,7 @@ Verbatim from voice.md §11, plus the combined-specific checks added in Step 7.
 - [ ] If sensitive content present, auto-clarity register applied (§7).
 - [ ] If `Tim says:` / `Nate says:` used, each adds a real second angle (not rephrasing).
 - [ ] Output ends with the mandatory disclaimer footer (D-16):
-  > *This is not Tim or Nate speaking — it's an approximation built from publicly shared review patterns. For a direct review, join the Friday stream: [Friday stream link].*
+  > *This is not Tim or Nate speaking — it's an approximation built from publicly shared review patterns. For a direct review, join the Friday stream: https://www.youtube.com/@designshaped/.*
 
 Combined-specific:
 

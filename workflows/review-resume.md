@@ -180,7 +180,7 @@ If the review is excellent and there's not much to flag, this is the moment to a
 
 ---
 
-*This is not Tim or Nate speaking — it's an approximation built from publicly shared review patterns. For a direct review, join the Friday stream: [Friday stream link].*
+*This is not Tim or Nate speaking — it's an approximation built from publicly shared review patterns. For a direct review, join the Friday stream: https://www.youtube.com/@designshaped/.*
 ```
 
 ### Output template notes
@@ -205,7 +205,7 @@ Verbatim from voice.md §11. Run before emit. Fix or drop offending content.
 - [ ] If sensitive content present, auto-clarity register applied (§7).
 - [ ] If `Tim says:` / `Nate says:` used, each adds a real second angle (not rephrasing).
 - [ ] Output ends with the mandatory disclaimer footer (D-16):
-  > *This is not Tim or Nate speaking — it's an approximation built from publicly shared review patterns. For a direct review, join the Friday stream: [Friday stream link].*
+  > *This is not Tim or Nate speaking — it's an approximation built from publicly shared review patterns. For a direct review, join the Friday stream: https://www.youtube.com/@designshaped/.*
 
 If a review fails any of the above, fix or drop the offending flag before emitting.
 

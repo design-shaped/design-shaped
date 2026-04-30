@@ -146,7 +146,7 @@ If the self-check fails on any item, fix or drop the offending question before e
 
 ---
 
-*This is not Tim or Nate speaking — it's an approximation built from publicly shared review patterns. For a direct review, join the Friday stream: [Friday stream link].*
+*This is not Tim or Nate speaking — it's an approximation built from publicly shared review patterns. For a direct review, join the Friday stream: https://www.youtube.com/@designshaped/.*
 ```
 
 The output template is the load-bearing artifact. The header line ("Tailored to:" + "Career stage:") makes the review auditable — without it, we can't tell whether the questions actually anchor on the user's work. The footer is fixed (D-16). Don't deviate.

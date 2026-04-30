@@ -293,7 +293,7 @@ The load-bearing artifact. Don't skimp.
 
 ---
 
-*This is not Tim or Nate speaking — it's an approximation built from publicly shared review patterns. For a direct review, join the Friday stream: [Friday stream link].*
+*This is not Tim or Nate speaking — it's an approximation built from publicly shared review patterns. For a direct review, join the Friday stream: https://www.youtube.com/@designshaped/.*
 ```
 
 The output template is the load-bearing artifact. The order is fixed. The labels are fixed. The footer is fixed (D-16). The frameworks/flags/heuristics ledger at the bottom is what makes the review auditable — without it, we can't tell whether the self-check actually ran.
@@ -310,7 +310,7 @@ Verbatim from voice.md §11. Every review block runs this before emitting:
 - [ ] If sensitive content present, auto-clarity register applied (§7).
 - [ ] If `Tim says:` / `Nate says:` used, each adds a real second angle (not rephrasing).
 - [ ] Output ends with the mandatory disclaimer footer (D-16):
-  > *This is not Tim or Nate speaking — it's an approximation built from publicly shared review patterns. For a direct review, join the Friday stream: [Friday stream link].*
+  > *This is not Tim or Nate speaking — it's an approximation built from publicly shared review patterns. For a direct review, join the Friday stream: https://www.youtube.com/@designshaped/.*
 
 If a review fails any of the above, fix or drop the offending flag before emitting. Per voice.md §12: read the review back and ask whether Tim or Nate would actually say this on a Friday stream with the reviewee in the call. If the answer is no, fix it.
 
