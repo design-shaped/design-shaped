@@ -23,7 +23,7 @@ Every walkthrough loads these in order. Skipping any of them produces drift.
 
 1. `../references/voice.md` — esp. §10 Pair 9 (mock-interview question generation), §6 anti-roast hard rule, §7 sensitive-content carve-out, §11 self-check.
 2. `../references/rubric-junior.md` OR `../references/rubric-senior.md` — picked from `career_stage`. Never both.
-3. `../references/frameworks.md` — questions cite frameworks where they help (STAR for behavioral defenses, Brian Lovin's Ownership Language for "what did YOU do," P→P→O for case-study walkthroughs, Two-Filter for research methodology).
+3. `../references/frameworks.md` — questions cite frameworks where they help (What/How/Why for resume-bullet defenses, Hook → Proof → Story for case-study walkthroughs, Two-Filter for research methodology).
 4. The user's submitted work — quote it specifically when generating questions. A question that doesn't quote the user's actual work is a list-of-generic-interview-prompts in disguise.
 
 The frameworks-by-name protocol still applies in walkthrough mode, but lighter — questions cite frameworks when they help the user self-grade, not as decoration.
@@ -71,7 +71,7 @@ Categories to spread across:
 | Test a thesis (sr) | Coherence of self-positioning | "Your hero says X. Strongest case study shows Y. Which is the real you?" |
 | Narrative | Self-aware reflection | "Project you learned the most from. What was the regret? Fast." |
 | Ownership probe | "I" vs "we" precision | "You said 'we shipped.' What did YOU specifically own?" |
-| Framework probe | Methodology fluency | "What part of P→P→O is thinnest in this case study, and why?" |
+| Framework probe | Methodology fluency | "Which beat of Hook → Proof → Story is thinnest in this case study, and why?" |
 
 Hold the pool. Use 5-8 of these in the walkthrough; the others are reserves for redirects (if a user dodges round 3's question, swap in a reserve from a different category for round 4 instead of forcing the same line of questioning).
 
@@ -256,7 +256,7 @@ The footer is mandatory per D-16 / PRIV-03. Don't omit it even if the session wa
 - **User mentions a project we haven't been quoting from.** Ask one line — *"Quick check: do you want us to pull questions from the [project name] case study? We haven't touched it yet."* Don't fabricate questions about a project we haven't read.
 - **User answers in a way that contradicts the work shown** (case study claims X, user says Y in the round). Name it as a question, not as a flag. *"You just said the metric was internal-only — the case study says you 'shipped to 50K MAU.' Which is the version you'd say in the real interview?"* The discrepancy is the prep moment.
 - **Mid-walkthrough, user realizes their case study is the problem and wants to bail to portfolio review.** Honor it. Wrap with a quick mini-synthesis ("Three rounds in — what we caught: [pattern]. Going to portfolio review now.") and route. The walkthrough's value isn't in completing 6 rounds; it's in producing useful pressure on the work.
-- **User submitted only a resume (no portfolio).** Walkthrough still runs — questions probe resume bullets instead of case studies. Pair 9 + STAR are the workhorse references. The synthesis focuses on bullet-shape patterns ("three of your bullets opened with 'responsible for' — replace with scope verbs").
+- **User submitted only a resume (no portfolio).** Walkthrough still runs — questions probe resume bullets instead of case studies. Pair 9 + What/How/Why are the workhorse references. The synthesis focuses on bullet-shape patterns ("three of your bullets opened with 'responsible for' — replace with scope verbs").
 - **User submitted Figma + URL + screenshots that compose into one body of work** (per D-P2-11). Treat as ONE source of questions. Don't ask separate rounds about Figma vs. URL vs. screenshots unless the user wants to drill on a specific surface.
 
 ## How this workflow is composed

@@ -29,7 +29,7 @@ In order. Do not skip.
 1. `../references/voice.md` — the writing register. Re-read §3 (pattern templates), §4 (drop list), §6 (anti-roast hard rule), §11 (self-check). Every flag in this workflow's output complies.
 2. `../references/rubric-junior.md` OR `../references/rubric-senior.md` — pick one based on `career_stage`. Never load both.
 3. `../references/common-flags.md` — load R01 through R10 specifically. P-flags don't apply in resume-only review.
-4. `../references/frameworks.md` — load the resume-relevant sections: STAR (#star), Problem → Process → Outcome (#problem-process-outcome) for cover-letter case-study fragments, Inverted Pyramid (#inverted-pyramid) for summary statements, Brian Lovin's Ownership Language (#brian-lovin-ownership-language) for "we" vs. "I" calls.
+4. `../references/frameworks.md` — load the resume-relevant sections: What/How/Why (#what-how-why) for bullet-rewrites, Hook → Proof → Story (#hook-proof-story) for cover-letter case-study fragments and summary statements, KSAs (#ksas) for ATS keyword-match diagnostics.
 
 The voice.md ❌/✅ pairs that hit hardest in resume review: Pair 2 (vague verb), Pair 6 (junior count), Pair 7 (senior strategic narrative), Pair 8 (career gap — sensitive). Re-read them before drafting.
 
@@ -64,9 +64,9 @@ For every bullet across every role:
 1. Quote the bullet verbatim. We do not paraphrase user copy. (voice.md §5 — "quote the user's own copy.")
 2. Check against R01-R10 in `common-flags.md`. Multiple R-IDs can fire on one bullet.
 3. Check against the relevant frameworks in `frameworks.md`:
-   - **STAR** — does the bullet have all four beats, or is it Action-only?
-   - **Problem → Process → Outcome** — for cover-letter case-study fragments only, not standard bullets.
-   - **Brian Lovin's Ownership Language** — "we" vs. "I" precision. If the bullet is all "we," it's hiding what the user owned.
+   - **What/How/Why** — does the bullet lead with Why (impact), or is it What-first / activity-only? Flip to Why/How/What when impact is buried.
+   - **Hook → Proof → Story** — for cover-letter case-study fragments and summary statements only, not standard bullets.
+   - **Ownership language** — "we" vs. "I" precision. If the bullet is all "we," it's hiding what the user owned.
 4. If flagged: produce a concrete rewrite (VOICE-04 mandate). The rewrite uses scope verb + scope number + outcome shape, per the senior rubric. For junior: scope verb + result + measurable signal where any signal exists.
 
 If the bullet passes all checks: don't list it. The output isn't an exhaustive audit — it's a flag list.
@@ -77,7 +77,7 @@ A bullet without a rewrite is a roast in disguise (voice.md §3). If we cannot p
 
 User's bullet: *"Worked on redesign of checkout flow to improve user experience."*
 
-- Flags: R01 (activity, no outcome), R04 ("Worked on" — passive verb), STAR (missing Result), voice.md drop list (vague verb "improve user experience").
+- Flags: R01 (activity, no outcome), R04 ("Worked on" — passive verb), What/How/Why (What-only — Why/impact missing), voice.md drop list (vague verb "improve user experience").
 - Diagnostic: redesigned how, for whom, with what result?
 - Rewrite: *"Redesigned checkout flow for [N]K-MAU SaaS — drop-off cut from 38% → 22% in test cohort (Mixpanel, Q3 2024)."* If no metric exists, soft-signal version: *"Redesigned checkout flow; pattern adopted as the team default across the SaaS suite."* Per voice.md ❌/✅ Pair 2.
 
@@ -85,7 +85,7 @@ User's bullet: *"Worked on redesign of checkout flow to improve user experience.
 
 User's bullet: *"Designed a new onboarding flow that reduced drop-off by 18%."*
 
-- Flags: scope thinness (per `rubric-senior.md` — this is mid-level shape, not senior). STAR Result is present, but Situation/Task/Action are compressed. Brian Lovin's Ownership Language: who owned this vs. who collaborated?
+- Flags: scope thinness (per `rubric-senior.md` — this is mid-level shape, not senior). What/How/Why: Why is present (18% drop-off), but What and How are compressed. Ownership language: who owned this vs. who collaborated?
 - Diagnostic: at what scope, with what partners, with what second-order effect?
 - Rewrite: *"Owned the redesign of onboarding for a $200M-ARR SaaS — drop-off fell from 38% → 22%, the new pattern was adopted across 3 product surfaces, and the engineering partnership produced a reusable Auth flow library."* Per `rubric-senior.md` "What changed because of you" section.
 
@@ -232,7 +232,7 @@ If a review fails any of the above, fix or drop the offending flag before emitti
 
 - **User has no measurable outcomes for any role.** This is common in NDA-heavy senior, government work, regulated industries. Apply the senior rubric "scope without metrics" guidance — focus on scope verbs, scope nouns (team size, eng partner ratio, customer base), time horizon, cross-org reach. Junior version: focus on scope nouns even when hard metrics are absent. The resume rubric never demands fabricated metrics — honest scope language beats fake numbers (R02 + P07 logic).
 
-- **User is a career switcher with no prior design titles.** Per `rubric-junior.md` Archetype B. The bullets need transferable-skill framing. Don't critique the prior career as "off-topic" — apply Brian Lovin's Ownership Language to the prior bullets and surface the transferable signal. See voice.md ❌/✅ Pair 2 application to non-design bullets.
+- **User is a career switcher with no prior design titles.** Per `rubric-junior.md` Archetype B. The bullets need transferable-skill framing. Don't critique the prior career as "off-topic" — apply What/How/Why to the prior bullets (lead with Why/impact, not What/activity) and surface the transferable signal. See voice.md ❌/✅ Pair 2 application to non-design bullets.
 
 - **User pasted bullets with no role context.** No company, no dates, no title — just the bullets. Run the bullet-level pass, skip the section coherence pass, note the missing context in the output: *"Reviewing bullets in isolation. Once role context is in, run the section coherence pass — recent role thinness and reverse-chronological signal can't be checked here."* Do not invent context.
 
@@ -251,4 +251,4 @@ Called directly by SKILL.md routing (P3) when:
 
 Called indirectly by `review-combined.md` (P3), which composes resume + portfolio outputs into one prioritized fix list per COMBO-01. When called by review-combined.md, this workflow returns its output as a structured object (Top-3, section flags, frameworks-applied, flags-applied) that the combined workflow re-prioritizes against the portfolio output. The disclaimer footer is appended once at the combined level, not per atomic workflow.
 
-Mock-interview workflows (`mock-interview-list.md`, `mock-interview-walkthrough.md`, P3) may consume this workflow's flagged-bullets list as a question source — bullets that flagged R01 (no outcome) become "what was the result?" questions, bullets that flagged Brian Lovin's Ownership Language become "what specifically did you own here?" questions. The composition is read-only — those workflows don't modify this one's output.
+Mock-interview workflows (`mock-interview-list.md`, `mock-interview-walkthrough.md`, P3) may consume this workflow's flagged-bullets list as a question source — bullets that flagged R01 (no outcome) become "what was the result?" questions, bullets flagged for "we" overuse become "what specifically did you own here?" questions. The composition is read-only — those workflows don't modify this one's output.

@@ -19,7 +19,7 @@ We load these in this order, every time. Skipping any of them produces drift.
 1. `../references/voice.md` — writing register, drop list, ❌/✅ pairs. Non-negotiable. Every line of output passes the §11 self-check before we emit.
 2. `../references/rubric-junior.md` OR `../references/rubric-senior.md` — picked from `career_stage`. Never both.
 3. `../references/common-flags.md` — P01–P15. Quote-anchor all critique back to one of these flag IDs where possible.
-4. `../references/frameworks.md` — at minimum: Slicing, Stakeholder Needs Map, Problem → Process → Outcome (P→P→O), Inverted Pyramid, the 80% Principle, House Analogy, Two-Filter Research Method, Proto Persona.
+4. `../references/frameworks.md` — at minimum: Slicing, Stakeholder Needs Map, Three Target Audiences, Hook → Proof → Story, What/How/Why, the 80% Principle, House Analogy, Two-Filter Research Method, Proto Persona.
 5. `../references/heuristics.md` — cite sparingly, only when one directly illuminates a flag we're already raising.
 
 The frameworks-by-name protocol (voice.md §9) is the single most load-bearing voice mechanic for portfolio reviews. Two frameworks named per review is the floor. Generic-sounding feedback usually means we forgot to cite a framework.
@@ -48,10 +48,10 @@ Cap at the first 4 case studies if more exist (PITFALLS §3.4). If the user sent
 
 What to extract from each case study on the first read:
 
-- **The opener.** First paragraph or first scroll. Per [Inverted Pyramid](../references/frameworks.md#inverted-pyramid), the opener carries most of the signal. Note whether it leads with the bet (senior-shaped), execution (mid-shaped), or process (junior-shaped).
+- **The opener.** First paragraph or first scroll. Per [Hook → Proof → Story](../references/frameworks.md#hook-proof-story), the opener carries most of the signal. Note whether it leads with the bet (senior-shaped), execution (mid-shaped), or process (junior-shaped).
 - **The closer.** Last paragraph. Note whether the case study ends on outcome, on "next steps include further user testing" (process-diary tell — P03), or on an unexamined-success summary (P14).
-- **The role / team callout.** "I" vs "we" pattern. Per common-flags.md P02 + P06 + Brian Lovin's Ownership Language, we're checking whether the designer's specific contribution is legible.
-- **The outcome paragraph.** Where does it live? Top, middle, paragraph 6, missing? This drives the Inverted Pyramid critique in Step 4.
+- **The role / team callout.** "I" vs "we" pattern. Per common-flags.md P02 + P06, we're checking whether the designer's specific contribution is legible.
+- **The outcome paragraph.** Where does it live? Top, middle, paragraph 6, missing? This drives the Hook → Proof → Story critique in Step 4.
 - **The visual artifact density.** Personas, journey maps, affinity diagrams — are they evidence or are they the hero? Per P05, process inflation is one of the highest-frequency junior flags.
 
 We don't write any of this down in the output. It's the read pattern that powers Steps 3–6.
@@ -73,7 +73,7 @@ For senior portfolios this is also the input to the senior rubric Step 4 (cohere
 
 For EACH case study (limit to first 4):
 
-1. **Apply a named framework from frameworks.md.** P→P→O is the default. Inverted Pyramid for outcome-first restructure. STAR for senior strategic openers. Slicing when scope is the live issue. Stakeholder Needs Map when the case study reads as competent but cold. Two-Filter Research Method when the research methodology is unstated. Proto Persona when the persona section is over-built (bootcamp tell). One framework per case study is the floor; two is fine when they don't overlap.
+1. **Apply a named framework from frameworks.md.** Hook → Proof → Story is the default for case-study sequencing. What/How/Why for hero/TLDR rewrites. Slicing when scope is the live issue. Stakeholder Needs Map (or Three Target Audiences) when the case study reads as competent but cold. Two-Filter Research Method when the research methodology is unstated. Proto Persona when the persona section is over-built (bootcamp tell). One framework per case study is the floor; two is fine when they don't overlap.
 2. **Quote specific elements.** Per voice.md §9 frameworks-by-name protocol: pull the user's exact bullet, paragraph, or section heading; show where the framework breaks. No abstract framing.
 3. **Surface flags from common-flags.md P01–P15** specifically. Cite by ID. The common flags are quote-anchored — if we can't quote the user's work back to them, the flag isn't ready to fire.
 4. **Provide concrete rewrites.** VOICE-04 mandate. Every flag has a fix or a move. A flag without a rewrite is a roast in disguise.
@@ -82,9 +82,9 @@ For EACH case study (limit to first 4):
 
 | Symptom in the case study | Framework to cite |
 |---|---|
-| Outcome missing or vague | [P→P→O](../references/frameworks.md#problem-process-outcome) — name the missing Outcome beat. |
-| Outcome buried in paragraph 6 | [Inverted Pyramid](../references/frameworks.md#inverted-pyramid) — restructure to lead with outcome. |
-| Resume bullet lists activity, no result | [STAR](../references/frameworks.md#star) — name the missing Result beat. |
+| Outcome missing or vague | [Hook → Proof → Story](../references/frameworks.md#hook-proof-story) — name the missing Story (outcome) beat. |
+| Outcome buried in paragraph 6 | [Hook → Proof → Story](../references/frameworks.md#hook-proof-story) — restructure to lead with the hook (outcome). |
+| Resume bullet lists activity, no result | [What/How/Why](../references/frameworks.md#what-how-why) — flip to Why-first; name the missing Why beat. |
 | Six-month project compressed into one block | [Slicing](../references/frameworks.md#slicing) — surface the iteration units. |
 | Designer up-front, no rhythm with eng | [Dual Track Agile](../references/frameworks.md#dual-track-agile) — name the missing cadence. |
 | One-shot delivery framing | [House Analogy](../references/frameworks.md#house-analogy) — diagnose waterfall posture. |
@@ -94,7 +94,7 @@ For EACH case study (limit to first 4):
 | Body of work doesn't address recruiter / IC interviewer / cross-functional partner | [Stakeholder Needs Map](../references/frameworks.md#stakeholder-needs-map). |
 | In-draft for 6+ months, perfectionism | [The 80% Principle](../references/frameworks.md#the-80-percent-principle). |
 | Three full personas with stock photos | [Proto Persona](../references/frameworks.md#proto-persona) — refactor, don't delete. |
-| "We did this" everywhere | [Brian Lovin's Ownership Language](../references/frameworks.md#brian-lovin-ownership-language). |
+| "We did this" everywhere | Surface ownership-language gap; quote the "we" pattern, ask what specifically the user owned (cite common-flags.md P02 / P06). |
 | Unstated research methodology | [Two-Filter Research Method](../references/frameworks.md#two-filter-research-method). |
 | "I built a design system" claim, library evidence | [Component Library → Design System Progression](../references/frameworks.md#component-library-design-system-progression). |
 
@@ -106,7 +106,7 @@ User's case study closes with: *"We presented the final designs to the team and 
 
 Output shape:
 
-> Your [project name] case study closes with: *"We presented the final designs to the team and got positive feedback."* This skips the **Outcome** in **Problem → Process → Outcome**. Hiring manager finishes the scroll with no idea what shipped, what changed, or what you'd do differently. Rewrite: replace the closing line with three lines — what shipped (or didn't), what changed in user behavior or business metrics (qualitative is fine if quant isn't available — be honest about which), and one specific thing you'd do differently. Move that block immediately after the problem statement and again at the end. See: `references/frameworks.md#problem-process-outcome`.
+> Your [project name] case study closes with: *"We presented the final designs to the team and got positive feedback."* This skips the **Story** beat in **Hook → Proof → Story**. Hiring manager finishes the scroll with no idea what shipped, what changed, or what you'd do differently. Rewrite: replace the closing line with three lines — what shipped (or didn't), what changed in user behavior or business metrics (qualitative is fine if quant isn't available — be honest about which), and one specific thing you'd do differently. Move that block immediately after the problem statement and again at the end. See: `references/frameworks.md#hook-proof-story`.
 
 That's the shape of every per-case-study flag in this workflow. Quote → name → fix → cite. Four moves, one bullet.
 
@@ -287,7 +287,7 @@ The load-bearing artifact. Don't skimp.
 
 ---
 
-**Frameworks applied:** [list, named verbatim — e.g. "Problem → Process → Outcome (P→P→O); Stakeholder Needs Map; The 80% Principle"]
+**Frameworks applied:** [list, named verbatim — e.g. "Hook → Proof → Story; Stakeholder Needs Map; The 80% Principle"]
 **Flags applied:** [list of P-IDs — e.g. "P03, P05, P11, P13"]
 **Heuristics cited:** [if any, list with sources — e.g. "outcomes and not outputs (frameworks.md#slicing)"]
 

@@ -25,7 +25,7 @@ We load these in this order, every time. Skipping any of them produces drift.
 
 1. `../references/voice.md` — writing register, drop list, ❌/✅ pairs. Re-read **§10 Pair 9** specifically before drafting — it's the canonical template for this entire workflow. Generic interview-prep questions ("Tell me about your design process") are the single-largest failure mode here, and Pair 9 is the anti-pattern.
 2. `../references/rubric-junior.md` OR `../references/rubric-senior.md` — picked from `career_stage`. The rubric tells us what a strong answer would look like, which is what powers the "listening for" hints.
-3. `../references/frameworks.md` — load the frameworks that fit the user's work. STAR for resume bullets, P→P→O for case-study walkthroughs, Brian Lovin's Ownership Language for "we" vs. "I" probes, Slicing for senior iteration probes, Two-Filter Research Method for research-claim probes.
+3. `../references/frameworks.md` — load the frameworks that fit the user's work. What/How/Why for resume bullets, Hook → Proof → Story for case-study walkthroughs, Slicing for senior iteration probes, Two-Filter Research Method for research-claim probes.
 4. The user's actual work (resume + portfolio + any composed inputs). Quote it specifically. Generic questions are the tell that we didn't actually read.
 
 Voice.md §10 Pair 9 is THE template for this workflow. The bad version is generic LLM interview-prep filler — "Can you tell me about your design process?" / "What was the most challenging part?" The good version quotes the user's actual case study, names the actual metric, names the actual pushback. Match Pair 9's specificity on every question.
@@ -90,7 +90,7 @@ The shape:
 - *"Listening for: you NAME the trade-off without us prompting."*
 - *"Listening for: you connect the prior-field skill to a specific design choice."*
 - *"Listening for: you can name the moment your component library started holding you back. If you can't, the design-system claim doesn't survive contact (per Component Library → Design System Progression)."*
-- *"Listening for: ownership language — what YOU specifically owned vs. what the team owned (per Brian Lovin's Ownership Language)."*
+- *"Listening for: ownership language — what YOU specifically owned vs. what the team owned."*
 - *"Listening for: you choose qual + attitudinal vs. quant + behavioral and DEFEND the choice (per Two-Filter Research Method)."*
 - *"Listening for: you name the slice that was your Release Candidate, not the whole 9-month project (per Slicing)."*
 - *"Listening for: a real regret, not a humble-brag. 'I'd have shipped sooner' doesn't count."*
@@ -166,7 +166,7 @@ The output template is the load-bearing artifact. The header line ("Tailored to:
 
 ## What goes wrong (failure modes + recovery)
 
-- **User has only a resume (no portfolio).** Pivot to resume-bullet-defense questions. Each measurable bullet generates one "what's the n / what's the trade-off" question; each "we" / "led" verb generates one ownership probe; each scope claim ("4M MAU SaaS," "12-engineer team") generates one scope-defense question. The framework anchors are STAR (R-bullet probes), Brian Lovin's Ownership Language (we vs. I), and the senior-rubric scope-language axis. We can hit 8–10 strong questions off a resume alone.
+- **User has only a resume (no portfolio).** Pivot to resume-bullet-defense questions. Each measurable bullet generates one "what's the n / what's the trade-off" question; each "we" / "led" verb generates one ownership probe; each scope claim ("4M MAU SaaS," "12-engineer team") generates one scope-defense question. The framework anchors are What/How/Why (Why-bullet probes), ownership-language probes (we vs. I), and the senior-rubric scope-language axis. We can hit 8–10 strong questions off a resume alone.
 
 - **User's work is too thin to generate 8 questions.** Name this honestly — don't pad. Per voice.md §5: "your work supports 5 strong questions, not 8. Padding to 8 wouldn't help. Here are the 5:" Then ship 5 with full listening-for hints. The honesty itself is a Friday-stream signal — Tim and Nate would tell the user "we don't have enough to grill you on yet" rather than fabricate questions. Recovery suggestion: tell the user what to add to the work that would unlock more questions ("ship one more case study with a real outcome paragraph and we can run a full set").
 
@@ -186,7 +186,7 @@ The output template is the load-bearing artifact. The header line ("Tailored to:
 
 - **User just ran combined review and the resume + portfolio tell different stories.** Per COMBO-02, the coherence gap itself becomes a question category. "Your resume bullet says 'led the redesign'; the case study says 'we redesigned.' Which one do you want the interviewer to believe?" "Your resume says 4M MAU; your case study doesn't cite scale anywhere. What's the scale claim you'd hold under follow-up?" Coherence-gap questions are some of the sharpest ones we generate, because the user almost always hasn't noticed the gap themselves.
 
-- **Output reads as Tim+Nate generic instead of Tim+Nate specific.** Symptom: questions name a framework but don't quote the user's work. Voice.md §9 protocol violation. The fix isn't to drop the framework — it's to add the verbatim quote. "Per Brian Lovin, what specifically did you own?" is generic. "Your [verbatim case-study name] case study uses 'we' 14 times — per Brian Lovin's Ownership Language, what specifically did YOU own?" is the workflow doing its job.
+- **Output reads as Tim+Nate generic instead of Tim+Nate specific.** Symptom: questions name a framework but don't quote the user's work. Voice.md §9 protocol violation. The fix isn't to drop the framework — it's to add the verbatim quote. "What specifically did you own?" is generic. "Your [verbatim case-study name] case study uses 'we' 14 times — what specifically did YOU own?" is the workflow doing its job.
 
 ## How this workflow is composed
 

@@ -13,7 +13,7 @@ The hiring-manager skim test, the resume conventions, the "why this path" career
 - Career-narrative coaching emphasizes a coherent "why this path" thesis. Some cultures undervalue narrative in favor of credentials.
 - "Cover letter" expectations vary widely outside the US.
 
-**What works regardless of geography:** case study structure (P→P→O / STAR / Inverted Pyramid), framework citation, voice (direct, no roast), bullet-level rewrites, mock interview question generation.
+**What works regardless of geography:** case study structure (Hook → Proof → Story / What/How/Why), framework citation, voice (direct, no roast), bullet-level rewrites, mock interview question generation.
 
 **What doesn't translate cleanly:** resume formatting conventions, the skim-test priorities, the senior-promotion rubric (especially in countries with stronger formal levels frameworks).
 

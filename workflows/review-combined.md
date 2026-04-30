@@ -34,7 +34,7 @@ In order. Do not skip.
 1. `../references/voice.md` — writing register. Re-read §3 (pattern templates), §4 (drop list), §6 (anti-roast hard rule), §9 (frameworks-by-name), §11 (self-check). Every flag in this workflow's output complies.
 2. `../references/rubric-junior.md` OR `../references/rubric-senior.md` — pick one based on `career_stage`. Never load both.
 3. `../references/common-flags.md` — load BOTH R01–R10 AND P01–P15. Combined mode is the only review where both halves apply at once.
-4. `../references/frameworks.md` — full file. We pull resume-shaped frameworks (STAR, Brian Lovin's Ownership Language, Inverted Pyramid for summaries) AND portfolio-shaped frameworks (Problem → Process → Outcome, Stakeholder Needs Map, Slicing, Brand Drivers, etc.) within the same review.
+4. `../references/frameworks.md` — full file. We pull resume-shaped frameworks (What/How/Why for bullets, KSAs for ATS keyword match) AND portfolio-shaped frameworks (Hook → Proof → Story, Stakeholder Needs Map, Three Target Audiences, Slicing, Brand Drivers, etc.) within the same review.
 5. `./review-resume.md` — the procedure we run mentally for the resume half.
 6. `./review-portfolio.md` — the procedure we run mentally for the portfolio half.
 
@@ -61,7 +61,7 @@ One line, one branch. Do not stack three questions. If the user mentioned stage 
 Apply `review-resume.md` procedure Steps 2–5 against `resume_inputs[]`:
 
 - Step 2 — Hiring-manager skim test (junior tiers OR senior 10-second senior-signal test).
-- Step 3 — Bullet-level pass against R01–R10 + STAR + Brian Lovin's Ownership Language.
+- Step 3 — Bullet-level pass against R01–R10 + What/How/Why.
 - Step 4 — Section coherence (header / summary / experience / education / skills / projects).
 - Step 5 — Top-3 fixes for the resume in isolation.
 
@@ -138,7 +138,7 @@ Selection example (junior, both artifacts have weaknesses):
 
 Use the output template below. Order is fixed. The coherence section sits ABOVE both compressed reviews because it's the distinctive output. The compressed reviews are summaries — synthesized, not concatenated; ~10–15 lines for the resume side and ~15–20 lines for the portfolio side.
 
-The frameworks-applied and flags-applied trailers run across both halves of the review. Combined mode often fires 4–7 frameworks total (resume + portfolio overlap on Brian Lovin's Ownership Language and Inverted Pyramid, but otherwise they're separate sets). Combined mode fires a wider P-ID + R-ID surface than either atomic review.
+The frameworks-applied and flags-applied trailers run across both halves of the review. Combined mode often fires 4–7 frameworks total (resume + portfolio sometimes overlap on What/How/Why and Hook → Proof → Story, but otherwise they're separate sets). Combined mode fires a wider P-ID + R-ID surface than either atomic review.
 
 ### Step 7 — Pre-emit self-check
 

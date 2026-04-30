@@ -66,7 +66,9 @@ This is a manual harness in v0.1.0. A future automated version may script Checks
 
 **How to run:**
 - Skim the review for any of these framework names (or any others in `frameworks.md`):
-  - STAR, Problem → Process → Outcome (P→P→O), Inverted Pyramid, Brian Lovin's Ownership Language
+  - What/How/Why ↔ Why/How/What, Hook → Proof → Story, Three Target Audiences, Housekeeping, Trust Ladder
+  - JJJ (Jolt / Journey / Jackpot), KSAs, Hard Metrics vs Soft Metrics, Prototyping with Numbers, Designer Niche Scales
+  - Read-the-Titles-Only Test, Children's Picture Book Rhetoric, Centralized vs Decentralized Environments
   - Slicing, Stakeholder Needs Map, The 80% Principle, Dual Track Agile
   - Brand Drivers, Ethos / Pathos / Logos, Ladders
   - Two-Filter Research Method, Proto Persona
@@ -74,7 +76,7 @@ This is a manual harness in v0.1.0. A future automated version may script Checks
 - Count distinct frameworks named. Target: ≥2.
 
 **Pass example:**
-> "This case study skips the *outcome* in Problem → Process → Outcome." (1)
+> "This case study buries the outcome — restructure with Hook → Proof → Story." (1)
 > "Your hero hits Slicing's mid-point but doesn't show the customer-facing change." (2) → PASS
 
 **Fail example:**
@@ -82,7 +84,7 @@ This is a manual harness in v0.1.0. A future automated version may script Checks
 
 **Why it matters:** frameworks-by-name is the load-bearing voice mechanic per D-19. Skipping it is the fastest path to generic-LLM output.
 
-**Rationale line:** PASS — 3 frameworks named (P→P→O, Slicing, Brand Drivers). (or)  FAIL — 0 frameworks named; review reads as "improve case study structure."
+**Rationale line:** PASS — 3 frameworks named (Hook → Proof → Story, Slicing, Brand Drivers). (or)  FAIL — 0 frameworks named; review reads as "improve case study structure."
 
 ---
 
