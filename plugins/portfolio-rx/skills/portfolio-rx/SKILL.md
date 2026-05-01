@@ -14,10 +14,13 @@ An async review of designer portfolios and resumes in the joint Friday-review vo
 - **`references/voice.md`** — writing register, drop list, ❌/✅ pairs, anti-roast hard rule. Loaded by every workflow first.
 - **`references/rubric-junior.md`** — prescriptive checklist for early-career / promotion-not-yet-targeted designers.
 - **`references/rubric-senior.md`** — diagnostic flow for mid-to-senior promotion candidates.
-- **`references/frameworks.md`** — 17 named frameworks (3 public-domain + 12 from Nate Bauer's published writing). Cited verbatim, never paraphrased.
+- **`references/frameworks.md`** — index router (slim, ~150 lines).
+- **`references/frameworks-stream.md`** — 13 stream-native frameworks mined from @designshaped Friday-stream transcripts. Cited verbatim, never paraphrased.
+- **`references/frameworks-nate.md`** — 13 frameworks Nate publishes on nabauer.com. Cited verbatim, never paraphrased.
 - **`references/common-flags.md`** — 25 recurring critique patterns (P01-P15 + R01-R10).
 - **`references/heuristics.md`** — 17 verbatim heuristics from Nate's site.
 - **`references/intake.md`** — per-input-type recipes (PDF / URL / Figma / pasted text / screenshot).
+- **`references/output-emit.md`** — file-out recipe: write the review as `.md` + styled `.html` to `~/portfolio-rx-output/` and open in browser. Reviews are too long to read comfortably in terminal.
 - **`workflows/review-resume.md`** — atomic resume review.
 - **`workflows/review-portfolio.md`** — atomic portfolio review.
 - **`workflows/review-combined.md`** — composite review when both supplied. Includes the resume↔portfolio coherence check.

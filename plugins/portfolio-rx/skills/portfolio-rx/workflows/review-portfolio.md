@@ -19,7 +19,7 @@ We load these in this order, every time. Skipping any of them produces drift.
 1. `../references/voice.md` — writing register, drop list, ❌/✅ pairs. Non-negotiable. Every line of output passes the §11 self-check before we emit.
 2. `../references/rubric-junior.md` OR `../references/rubric-senior.md` — picked from `career_stage`. Never both.
 3. `../references/common-flags.md` — P01–P15. Quote-anchor all critique back to one of these flag IDs where possible.
-4. `../references/frameworks.md` — at minimum: Slicing, Stakeholder Needs Map, Three Target Audiences, Hook → Proof → Story, What/How/Why, the 80% Principle, House Analogy, Two-Filter Research Method, Proto Persona.
+4. `../references/frameworks-stream.md` AND `../references/frameworks-nate.md` — both files. (`frameworks.md` is the index router that maps which framework lives where.) Portfolio reviews routinely cite frameworks from both: Hook → Proof → Story, What/How/Why, Three Target Audiences, Housekeeping (stream); Slicing, Stakeholder Needs Map, Brand Drivers, House Analogy, Two-Filter Research Method, Proto Persona, The 80% Principle (Nate). Each split file fits under the 25k-token Read ceiling.
 5. `../references/heuristics.md` — cite sparingly, only when one directly illuminates a flag we're already raising.
 
 The frameworks-by-name protocol (voice.md §9) is the single most load-bearing voice mechanic for portfolio reviews. Two frameworks named per review is the floor. Generic-sounding feedback usually means we forgot to cite a framework.
@@ -46,9 +46,11 @@ Treat homepage + each case study as ONE BODY OF WORK. We don't critique projects
 
 Cap at the first 4 case studies if more exist (PITFALLS §3.4). If the user sent more than 4 case-study links and we follow them all, we burn context and the review thins out. If 4 isn't the right 4, we say so in the output and ask which to focus on next round.
 
+**Partial-portfolio recognition (PORT-08).** If `intake.md#portfolio-url` reached the homepage but couldn't reach the case-study internals (JS-overlay case studies, custom OS-metaphor portfolios that load case studies from JSON, password-gated case studies on a public homepage), set `scope = "partial-tile-only"` and proceed with what's available. Most often this means: homepage hero, about page, project tiles (with tile-level metric copy), reviews/testimonials section. Run the standard review steps against tile copy. The per-case-study breakdown shrinks to one paragraph per tile (instead of the full Hook → Proof → Story per-case-study analysis) and the output flags the scope explicitly via the "Caveat — what couldn't be reviewed" template block in Step 8. **Don't refuse the review.** Tile-level review is genuinely useful — the homepage is where the recruiter spends 80% of their time anyway. The deep-dive comes back as a follow-up once internals are accessible.
+
 What to extract from each case study on the first read:
 
-- **The opener.** First paragraph or first scroll. Per [Hook → Proof → Story](../references/frameworks.md#hook-proof-story), the opener carries most of the signal. Note whether it leads with the bet (senior-shaped), execution (mid-shaped), or process (junior-shaped).
+- **The opener.** First paragraph or first scroll. Per [Hook → Proof → Story](../references/frameworks-stream.md#hook-proof-story), the opener carries most of the signal. Note whether it leads with the bet (senior-shaped), execution (mid-shaped), or process (junior-shaped).
 - **The closer.** Last paragraph. Note whether the case study ends on outcome, on "next steps include further user testing" (process-diary tell — P03), or on an unexamined-success summary (P14).
 - **The role / team callout.** "I" vs "we" pattern. Per common-flags.md P02 + P06, we're checking whether the designer's specific contribution is legible.
 - **The outcome paragraph.** Where does it live? Top, middle, paragraph 6, missing? This drives the Hook → Proof → Story critique in Step 4.
@@ -82,21 +84,21 @@ For EACH case study (limit to first 4):
 
 | Symptom in the case study | Framework to cite |
 |---|---|
-| Outcome missing or vague | [Hook → Proof → Story](../references/frameworks.md#hook-proof-story) — name the missing Story (outcome) beat. |
-| Outcome buried in paragraph 6 | [Hook → Proof → Story](../references/frameworks.md#hook-proof-story) — restructure to lead with the hook (outcome). |
-| Resume bullet lists activity, no result | [What/How/Why](../references/frameworks.md#what-how-why) — flip to Why-first; name the missing Why beat. |
-| Six-month project compressed into one block | [Slicing](../references/frameworks.md#slicing) — surface the iteration units. |
-| Designer up-front, no rhythm with eng | [Dual Track Agile](../references/frameworks.md#dual-track-agile) — name the missing cadence. |
-| One-shot delivery framing | [House Analogy](../references/frameworks.md#house-analogy) — diagnose waterfall posture. |
-| Hero promises X, body delivers Y | [Brand Drivers](../references/frameworks.md#brand-drivers) + voice.md Pair 4. |
-| Saturated competitive lane | [Ladders](../references/frameworks.md#ladders) — make a new ladder. |
-| Technically competent but cold | [Ethos / Pathos / Logos](../references/frameworks.md#ethos-pathos-logos) — diagnose missing pathos. |
-| Body of work doesn't address recruiter / IC interviewer / cross-functional partner | [Stakeholder Needs Map](../references/frameworks.md#stakeholder-needs-map). |
-| In-draft for 6+ months, perfectionism | [The 80% Principle](../references/frameworks.md#the-80-percent-principle). |
-| Three full personas with stock photos | [Proto Persona](../references/frameworks.md#proto-persona) — refactor, don't delete. |
+| Outcome missing or vague | [Hook → Proof → Story](../references/frameworks-stream.md#hook-proof-story) — name the missing Story (outcome) beat. |
+| Outcome buried in paragraph 6 | [Hook → Proof → Story](../references/frameworks-stream.md#hook-proof-story) — restructure to lead with the hook (outcome). |
+| Resume bullet lists activity, no result | [What/How/Why](../references/frameworks-stream.md#what-how-why) — flip to Why-first; name the missing Why beat. |
+| Six-month project compressed into one block | [Slicing](../references/frameworks-nate.md#slicing) — surface the iteration units. |
+| Designer up-front, no rhythm with eng | [Dual Track Agile](../references/frameworks-nate.md#dual-track-agile) — name the missing cadence. |
+| One-shot delivery framing | [House Analogy](../references/frameworks-nate.md#house-analogy) — diagnose waterfall posture. |
+| Hero promises X, body delivers Y | [Brand Drivers](../references/frameworks-nate.md#brand-drivers) + voice.md Pair 4. |
+| Saturated competitive lane | [Ladders](../references/frameworks-nate.md#ladders) — make a new ladder. |
+| Technically competent but cold | [Ethos / Pathos / Logos](../references/frameworks-nate.md#ethos-pathos-logos) — diagnose missing pathos. |
+| Body of work doesn't address recruiter / IC interviewer / cross-functional partner | [Stakeholder Needs Map](../references/frameworks-nate.md#stakeholder-needs-map). |
+| In-draft for 6+ months, perfectionism | [The 80% Principle](../references/frameworks-nate.md#the-80-percent-principle). |
+| Three full personas with stock photos | [Proto Persona](../references/frameworks-nate.md#proto-persona) — refactor, don't delete. |
 | "We did this" everywhere | Surface ownership-language gap; quote the "we" pattern, ask what specifically the user owned (cite common-flags.md P02 / P06). |
-| Unstated research methodology | [Two-Filter Research Method](../references/frameworks.md#two-filter-research-method). |
-| "I built a design system" claim, library evidence | [Component Library → Design System Progression](../references/frameworks.md#component-library-design-system-progression). |
+| Unstated research methodology | [Two-Filter Research Method](../references/frameworks-nate.md#two-filter-research-method). |
+| "I built a design system" claim, library evidence | [Component Library → Design System Progression](../references/frameworks-nate.md#component-library-design-system-progression). |
 
 If two symptoms fit, name both frameworks. If none fit, the case study probably isn't broken in a structural way — focus the critique on visual craft (Step 5) or coherence (Step 3) instead of forcing a framework that doesn't apply.
 
@@ -106,7 +108,7 @@ User's case study closes with: *"We presented the final designs to the team and 
 
 Output shape:
 
-> Your [project name] case study closes with: *"We presented the final designs to the team and got positive feedback."* This skips the **Story** beat in **Hook → Proof → Story**. Hiring manager finishes the scroll with no idea what shipped, what changed, or what you'd do differently. Rewrite: replace the closing line with three lines — what shipped (or didn't), what changed in user behavior or business metrics (qualitative is fine if quant isn't available — be honest about which), and one specific thing you'd do differently. Move that block immediately after the problem statement and again at the end. See: `references/frameworks.md#hook-proof-story`.
+> Your [project name] case study closes with: *"We presented the final designs to the team and got positive feedback."* This skips the **Story** beat in **Hook → Proof → Story**. Hiring manager finishes the scroll with no idea what shipped, what changed, or what you'd do differently. Rewrite: replace the closing line with three lines — what shipped (or didn't), what changed in user behavior or business metrics (qualitative is fine if quant isn't available — be honest about which), and one specific thing you'd do differently. Move that block immediately after the problem statement and again at the end. See: `references/frameworks-stream.md#hook-proof-story`.
 
 That's the shape of every per-case-study flag in this workflow. Quote → name → fix → cite. Four moves, one bullet.
 
@@ -197,6 +199,28 @@ Selection rules:
 
 Use the output template below. Never deviate from the section order — recruiters and the user both pattern-match on it.
 
+If `scope = "partial-tile-only"` (per Step 2), include the **Caveat — what couldn't be reviewed** block under the "Body of work" line. The block is verbatim shape:
+
+> **Caveat — what couldn't be reviewed:** [name what was reachable: e.g. "homepage tile copy, hero, about, reviews"] reviewed. [Name what wasn't: e.g. "Case studies open as in-app overlays inside the OS metaphor and aren't crawlable as static URLs."] Per-case-study deep-dive needs a separate pass once the inside of each window is accessible (screenshots or rendered captures).
+
+The per-case-study breakdown for partial-scope reviews uses the **tile-only** sub-template (in the output template below): one block per tile, naming what's strong / what's flagged / what to lead with — but at one paragraph each, not full Hook → Proof → Story per case study. The deeper per-case-study breakdown waits for accessible internals.
+
+### Step 8.5 — Emit to file (NEW v0.2)
+
+After the review block is assembled and printed to the terminal, emit it to disk per `../references/output-emit.md`. Three steps:
+
+1. **`Write`** the review markdown to `~/portfolio-rx-output/YYYY-MM-DD-<slug>-portfolio-review.md`.
+2. **`Write`** the same content rendered to HTML (using the print-friendly template in `output-emit.md`) to `~/portfolio-rx-output/YYYY-MM-DD-<slug>-portfolio-review.html`.
+3. **`Bash`** `open <html-path>` (macOS) or `xdg-open <html-path>` (Linux) to open in the user's default browser.
+
+Append one line to the in-terminal output after the review:
+
+> 📄 Saved to `~/portfolio-rx-output/<filename>.md` (markdown) and `<filename>.html` (opened in browser — ⌘P to save as PDF).
+
+This lets the user read the review as a document rather than scrolling 20k characters of terminal output. See `output-emit.md` for filename rules, slug derivation, failure handling, and the HTML template.
+
+If the user has explicitly said "skip the file" or "just print to terminal," omit Step 8.5.
+
 ### Step 9 — Pre-emit self-check
 
 Run voice.md §11 checklist verbatim. If any check fails, fix or drop the offending flag before emitting. Better to ship 8 strong flags than 12 with one platitude in them.
@@ -234,6 +258,9 @@ The load-bearing artifact. Don't skimp.
 **Body of work:** [list of projects detected, comma-separated, with one-line role/domain per project if visible]
 **Coherence read:** [the through-line in one sentence, OR the gap named directly per voice.md Pair 4]
 
+[IF scope = "partial-tile-only":]
+**Caveat — what couldn't be reviewed:** [name what was reachable: e.g. "homepage tile copy, hero, about, reviews"] reviewed. [Name what wasn't: e.g. "Case studies open as in-app overlays inside the OS metaphor and aren't crawlable as static URLs."] Per-case-study deep-dive needs a separate pass once the inside of each window is accessible (screenshots or rendered captures).
+
 ---
 
 **Top 3 fixes**
@@ -246,9 +273,11 @@ The load-bearing artifact. Don't skimp.
 
 **Per-case-study breakdown** (priority order — most-actionable first)
 
+[IF scope = "full" — full per-case-study analysis:]
+
 ### Case study: [title — verbatim from the portfolio]
 
-- **Framework:** [Framework Name from frameworks.md, named verbatim per voice.md §9]
+- **Framework:** [Framework Name from frameworks-stream.md or frameworks-nate.md, named verbatim per voice.md §9]
 - **What's strong:** [1–2 lines, specific to this case study. Skip if nothing is genuinely strong — never fabricate.]
 - **Flagged:**
   - [Quote from the case study]: [P-ID from common-flags.md]. [What's wrong, in one line]. [Concrete rewrite.]
@@ -261,6 +290,24 @@ The load-bearing artifact. Don't skimp.
 [same structure]
 
 [Repeat for each case study, up to 4.]
+
+[IF scope = "partial-tile-only" — tile-level analysis only:]
+
+> Tile-level read only. Per-case-study deep-dive needs accessible internals (see Caveat above).
+
+### Tile: [project name — verbatim from the portfolio tile]
+
+- **Framework:** [Framework Name applied to the tile copy alone — most often Hook → Proof → Story for tile metric framing, What/How/Why for tile-bullet shape, Brand Drivers for tile positioning]
+- **What's strong:** [1 line on the tile. Skip if nothing is genuinely strong.]
+- **Flagged:**
+  - [Quote from the tile]: [What's wrong]. [Concrete rewrite — at the tile level, e.g. "lead the tile with the metric, not the project title".]
+- **Inside the case study (pending review):** [One line on what the deep-dive will likely test — bet vs execution, named tradeoff, etc. Honest hedge, not a fabricated critique.]
+
+### Tile: [project name]
+
+[same structure]
+
+[Repeat for each tile, up to ~8 if visible — tiles are denser per-piece than full case studies.]
 
 ---
 
@@ -289,7 +336,7 @@ The load-bearing artifact. Don't skimp.
 
 **Frameworks applied:** [list, named verbatim — e.g. "Hook → Proof → Story; Stakeholder Needs Map; The 80% Principle"]
 **Flags applied:** [list of P-IDs — e.g. "P03, P05, P11, P13"]
-**Heuristics cited:** [if any, list with sources — e.g. "outcomes and not outputs (frameworks.md#slicing)"]
+**Heuristics cited:** [if any, list with sources — e.g. "outcomes and not outputs (frameworks-nate.md#slicing)"]
 
 ---
 
@@ -351,7 +398,7 @@ If a review fails any of the above, fix or drop the offending flag before emitti
 - **Called directly by SKILL.md routing** when `mode = portfolio`. The router decides; we don't.
 - **Called by `review-combined.md` (P3)** for combined resume + portfolio reviews. The combined workflow runs both atomic workflows in sequence, then synthesizes a single prioritized fix list (COMBO-01) and a coherence check between resume and case-study claims (COMBO-02).
 - **Called by `mock-interview-list.md` and `mock-interview-walkthrough.md` (P3)** which use the portfolio review output as the source for question generation (MOCK-01, MOCK-02). The interview workflows quote case studies back to the user; this workflow's per-case-study breakdown is the input.
-- **Reads from references/** — voice.md, rubric-junior.md OR rubric-senior.md, common-flags.md, frameworks.md, heuristics.md. Loaded on demand per the SKILL.md router (P3) — we don't hold this file in context until the router decides the input is a portfolio.
+- **Reads from references/** — voice.md, rubric-junior.md OR rubric-senior.md, common-flags.md, frameworks-stream.md AND frameworks-nate.md (`frameworks.md` is the slim index router), heuristics.md, output-emit.md (for Step 8.5 file emit). Loaded on demand per the SKILL.md router (P3) — we don't hold this file in context until the router decides the input is a portfolio.
 - **Writes to nowhere on disk.** The output is rendered text in the user's terminal. PRIV-01 — no remote calls beyond Claude Code's standard tool use.
 
 The atomic shape of this workflow is the point: it's the substrate the composite workflows compose against. Don't add combined-mode logic here. Don't add interview-mode logic here. If a workflow needs portfolio-review output, it calls this one and consumes the output.

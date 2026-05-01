@@ -34,7 +34,7 @@ In order. Do not skip.
 1. `../references/voice.md` — writing register. Re-read §3 (pattern templates), §4 (drop list), §6 (anti-roast hard rule), §9 (frameworks-by-name), §11 (self-check). Every flag in this workflow's output complies.
 2. `../references/rubric-junior.md` OR `../references/rubric-senior.md` — pick one based on `career_stage`. Never load both.
 3. `../references/common-flags.md` — load BOTH R01–R10 AND P01–P15. Combined mode is the only review where both halves apply at once.
-4. `../references/frameworks.md` — full file. We pull resume-shaped frameworks (What/How/Why for bullets, KSAs for ATS keyword match) AND portfolio-shaped frameworks (Hook → Proof → Story, Stakeholder Needs Map, Three Target Audiences, Slicing, Brand Drivers, etc.) within the same review.
+4. `../references/frameworks-stream.md` AND `../references/frameworks-nate.md` — both files. (`frameworks.md` is the slim index router.) Combined reviews pull resume-shaped frameworks (What/How/Why for bullets, KSAs for ATS keyword match — both in `frameworks-stream.md`) AND portfolio-shaped frameworks (Hook → Proof → Story, Three Target Audiences in `frameworks-stream.md`; Stakeholder Needs Map, Slicing, Brand Drivers in `frameworks-nate.md`) within the same review.
 5. `./review-resume.md` — the procedure we run mentally for the resume half.
 6. `./review-portfolio.md` — the procedure we run mentally for the portfolio half.
 
@@ -139,6 +139,20 @@ Selection example (junior, both artifacts have weaknesses):
 Use the output template below. Order is fixed. The coherence section sits ABOVE both compressed reviews because it's the distinctive output. The compressed reviews are summaries — synthesized, not concatenated; ~10–15 lines for the resume side and ~15–20 lines for the portfolio side.
 
 The frameworks-applied and flags-applied trailers run across both halves of the review. Combined mode often fires 4–7 frameworks total (resume + portfolio sometimes overlap on What/How/Why and Hook → Proof → Story, but otherwise they're separate sets). Combined mode fires a wider P-ID + R-ID surface than either atomic review.
+
+### Step 6.5 — Emit to file (NEW v0.2)
+
+After the review block is assembled and printed to the terminal, emit it to disk per `../references/output-emit.md`. Three steps:
+
+1. **`Write`** the review markdown to `~/portfolio-rx-output/YYYY-MM-DD-<slug>-combined-review.md`.
+2. **`Write`** the same content rendered to HTML (using the print-friendly template in `output-emit.md`) to `~/portfolio-rx-output/YYYY-MM-DD-<slug>-combined-review.html`.
+3. **`Bash`** `open <html-path>` (macOS) or `xdg-open <html-path>` (Linux) to open in the user's default browser.
+
+Append one line after the in-terminal review:
+
+> 📄 Saved to `~/portfolio-rx-output/<filename>.md` (markdown) and `<filename>.html` (opened in browser — ⌘P to save as PDF).
+
+Combined reviews benefit most from file emit — they're the longest of the three formats and dense to read in terminal. If the user has explicitly said "skip the file" or "just print to terminal," omit Step 6.5.
 
 ### Step 7 — Pre-emit self-check
 

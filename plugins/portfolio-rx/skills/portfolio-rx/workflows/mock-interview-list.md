@@ -25,7 +25,7 @@ We load these in this order, every time. Skipping any of them produces drift.
 
 1. `../references/voice.md` — writing register, drop list, ❌/✅ pairs. Re-read **§10 Pair 9** specifically before drafting — it's the canonical template for this entire workflow. Generic interview-prep questions ("Tell me about your design process") are the single-largest failure mode here, and Pair 9 is the anti-pattern.
 2. `../references/rubric-junior.md` OR `../references/rubric-senior.md` — picked from `career_stage`. The rubric tells us what a strong answer would look like, which is what powers the "listening for" hints.
-3. `../references/frameworks.md` — load the frameworks that fit the user's work. What/How/Why for resume bullets, Hook → Proof → Story for case-study walkthroughs, Slicing for senior iteration probes, Two-Filter Research Method for research-claim probes.
+3. `../references/frameworks-stream.md` and/or `../references/frameworks-nate.md` — load the frameworks that fit the user's work. What/How/Why and Hook → Proof → Story (stream) for resume-bullet and case-study walkthroughs; Slicing and Two-Filter Research Method (Nate) for senior iteration and research-claim probes. (`frameworks.md` is the index router.)
 4. The user's actual work (resume + portfolio + any composed inputs). Quote it specifically. Generic questions are the tell that we didn't actually read.
 
 Voice.md §10 Pair 9 is THE template for this workflow. The bad version is generic LLM interview-prep filler — "Can you tell me about your design process?" / "What was the most challenging part?" The good version quotes the user's actual case study, names the actual metric, names the actual pushback. Match Pair 9's specificity on every question.

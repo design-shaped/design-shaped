@@ -53,7 +53,7 @@ The thesis is rarely stated. It's hidden in:
 - **Role progression on the resume.** Did the user climb at one company (depth thesis) or breadth across many (range thesis)? Did they promote into management and back to IC (manager-returning thesis)?
 - **What's NOT shown.** A research-heavy portfolio with no shipped product is a research-deep IC thesis. A systems-heavy portfolio with no flow work is a design-systems-lead thesis.
 
-The thesis is the user's **shape**, not a role title. Read it through **Designer Niche Scales** (`frameworks.md#niche-scales`) — niche is multi-axis, not one-dimensional. The four scales:
+The thesis is the user's **shape**, not a role title. Read it through **Designer Niche Scales** (`frameworks-stream.md#niche-scales`) — niche is multi-axis, not one-dimensional. The four scales:
 
 - **Domain familiarity** — agnostic ↔ embedded in one industry.
 - **Elevation** — tactical ↔ strategic (UI output ↔ team leadership).
@@ -74,7 +74,7 @@ This is the most common senior failure. We see it more than weak case studies, w
 
 ## Step 2 — Identify the target environment
 
-The load-bearing senior question. Apply **Centralized vs Decentralized Environments** (`frameworks.md#centralized-decentralized`).
+The load-bearing senior question. Apply **Centralized vs Decentralized Environments** (`frameworks-stream.md#centralized-decentralized`).
 
 - **Centralized environment** — designer reports up to a UX manager who assigns a backlog. Common in agencies and smaller orgs. Prefers specialists.
 - **Decentralized environment** — designer is embedded on a product team with PMs/devs/business stakeholders. Common in enterprise agile. Prefers generalists.
@@ -99,7 +99,7 @@ This is the prerequisite question before applying any cadence framework. Use it 
 
 ## Step 3 — Read scope language in housekeeping
 
-The senior tell. Apply **Housekeeping** (`frameworks.md#housekeeping`).
+The senior tell. Apply **Housekeeping** (`frameworks-stream.md#housekeeping`).
 
 At junior, housekeeping shows "I was the designer." The role line reads as title-only.
 
@@ -116,7 +116,7 @@ What to surface when the housekeeping is junior-shaped on a senior portfolio:
 
 The scope-signaling without humble-bragging rule: specific numbers don't read as bragging — they read as scope evidence. Vague superlatives ("high-impact," "transformative," "cross-functional") read as filler. The fix is always: replace the superlative with a number.
 
-Senior housekeeping is also where **KSAs** (`frameworks.md#ksas`) get seeded — extract knowledge, skills, abilities verbatim from the target job description and surface them in the housekeeping block. Senior portfolios often skip this because the user assumes the recruiter will read deeply. They don't.
+Senior housekeeping is also where **KSAs** (`frameworks-stream.md#ksas`) get seeded — extract knowledge, skills, abilities verbatim from the target job description and surface them in the housekeeping block. Senior portfolios often skip this because the user assumes the recruiter will read deeply. They don't.
 
 ---
 
@@ -126,7 +126,7 @@ The senior diagnostic question is: **"What was the bet, who decided, why this wo
 
 Senior portfolios that read as execution fail this step. From streams (P14): senior is a level of decision-making, not pixel quality. If the case study can't show the user's thinking at the bet level — what was unclear, who decided to invest in it, why this work and not other work — the user is positioned at mid, not senior, regardless of years of experience.
 
-Apply **Hook → Proof → Story** (`frameworks.md#hook-proof-story`) with the senior shape:
+Apply **Hook → Proof → Story** (`frameworks-stream.md#hook-proof-story`) with the senior shape:
 
 - **Hook** — the bet. The business question. What was unclear, who decided to invest, why this and not other work.
 - **Proof** — scope evidence. Visual or empirical. The shipped artifact + the scale claim.
@@ -230,7 +230,7 @@ When generating probes for the user's interview prep, name three specific to the
 
 ## Step 8 — Hard metrics vs soft metrics calibration
 
-Apply **Hard Metrics vs Soft Metrics** (`frameworks.md#hard-soft-metrics`).
+Apply **Hard Metrics vs Soft Metrics** (`frameworks-stream.md#hard-soft-metrics`).
 
 The senior calibration: behavior change is real evidence when hard metrics aren't available. Drop the "must have metrics" prescriptive at senior. Senior portfolios are often NDA-bound, side-project-driven, or organizationally-instrumented in ways the designer didn't control.
 
@@ -238,7 +238,7 @@ The three escalating moves for the no-metric problem:
 
 1. **Hard metric** (best when available) — quantifiable business or product number with sourcing. *"Drop-off fell 38% → 22%, n=14k, Mixpanel Q3 2024."*
 2. **Behavior change / soft metric** (good when hard isn't accessible) — qualitative validated outcome. *"Analysts no longer have to use this software to find what they're looking for."* / *"The team adopted this pattern across 3 product surfaces."* Specific, validated, defensible.
-3. **Prototyping with Numbers** (`frameworks.md#prototyping-with-numbers`, creative when neither is available) — pick a comparable real product, find its public business numbers, scale the prediction down to your project. *"If there was an app similar to mine, here's what the business outcome would have been at this scale."*
+3. **Prototyping with Numbers** (`frameworks-stream.md#prototyping-with-numbers`, creative when neither is available) — pick a comparable real product, find its public business numbers, scale the prediction down to your project. *"If there was an app similar to mine, here's what the business outcome would have been at this scale."*
 
 The senior failure mode is fabricated round percentages — *"increased engagement by 45%"* on uninstrumented work. Hiring managers identify these on sight. Mature framing beats fake numbers every time:
 
@@ -299,7 +299,7 @@ Senior resumes are simpler structurally than junior ones (fewer sections, less t
 
 ### Apply What/How/Why ↔ Why/How/What
 
-`frameworks.md#what-how-why`. Walk every bullet. Does it lead with the why? If a bullet starts with "Designed X," "Created Y," or "Led Z," it's What-first — flip it. The headline rule from streams: *"if you follow a what-how-why approach, really hard to write a bad bullet."*
+`frameworks-stream.md#what-how-why`. Walk every bullet. Does it lead with the why? If a bullet starts with "Designed X," "Created Y," or "Led Z," it's What-first — flip it. The headline rule from streams: *"if you follow a what-how-why approach, really hard to write a bad bullet."*
 
 The senior optimization: lead with impact (Why), then method (How), then activity (What).
 

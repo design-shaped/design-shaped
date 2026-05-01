@@ -23,7 +23,7 @@ Every walkthrough loads these in order. Skipping any of them produces drift.
 
 1. `../references/voice.md` — esp. §10 Pair 9 (mock-interview question generation), §6 anti-roast hard rule, §7 sensitive-content carve-out, §11 self-check.
 2. `../references/rubric-junior.md` OR `../references/rubric-senior.md` — picked from `career_stage`. Never both.
-3. `../references/frameworks.md` — questions cite frameworks where they help (What/How/Why for resume-bullet defenses, Hook → Proof → Story for case-study walkthroughs, Two-Filter for research methodology).
+3. `../references/frameworks-stream.md` and/or `../references/frameworks-nate.md` — questions cite frameworks where they help (What/How/Why for resume-bullet defenses, Hook → Proof → Story for case-study walkthroughs, Two-Filter for research methodology). (`frameworks.md` is the index router.)
 4. The user's submitted work — quote it specifically when generating questions. A question that doesn't quote the user's actual work is a list-of-generic-interview-prompts in disguise.
 
 The frameworks-by-name protocol still applies in walkthrough mode, but lighter — questions cite frameworks when they help the user self-grade, not as decoration.

@@ -29,7 +29,7 @@ In order. Do not skip.
 1. `../references/voice.md` — the writing register. Re-read §3 (pattern templates), §4 (drop list), §6 (anti-roast hard rule), §11 (self-check). Every flag in this workflow's output complies.
 2. `../references/rubric-junior.md` OR `../references/rubric-senior.md` — pick one based on `career_stage`. Never load both.
 3. `../references/common-flags.md` — load R01 through R10 specifically. P-flags don't apply in resume-only review.
-4. `../references/frameworks.md` — load the resume-relevant sections: What/How/Why (#what-how-why) for bullet-rewrites, Hook → Proof → Story (#hook-proof-story) for cover-letter case-study fragments and summary statements, KSAs (#ksas) for ATS keyword-match diagnostics.
+4. `../references/frameworks-stream.md` — the resume-relevant frameworks live here: What/How/Why (#what-how-why) for bullet-rewrites, Hook → Proof → Story (#hook-proof-story) for cover-letter case-study fragments and summary statements, KSAs (#ksas) for ATS keyword-match diagnostics. (`../references/frameworks.md` is the index router; `frameworks-nate.md` is mostly portfolio-shaped — pull it only if the user buzzword-stacks Lean / Agile / Scrum.)
 
 The voice.md ❌/✅ pairs that hit hardest in resume review: Pair 2 (vague verb), Pair 6 (junior count), Pair 7 (senior strategic narrative), Pair 8 (career gap — sensitive). Re-read them before drafting.
 
@@ -122,6 +122,20 @@ Selection rules:
 ### Step 6 — Output assembly
 
 Use the output template below. Fill in only sections that have content — don't emit empty headers. The order is fixed; section content is not.
+
+### Step 6.5 — Emit to file (NEW v0.2)
+
+After the review block is assembled and printed to the terminal, emit it to disk per `../references/output-emit.md`. Three steps:
+
+1. **`Write`** the review markdown to `~/portfolio-rx-output/YYYY-MM-DD-<slug>-resume-review.md`.
+2. **`Write`** the same content rendered to HTML (using the print-friendly template in `output-emit.md`) to `~/portfolio-rx-output/YYYY-MM-DD-<slug>-resume-review.html`.
+3. **`Bash`** `open <html-path>` (macOS) or `xdg-open <html-path>` (Linux) to open in the user's default browser.
+
+Append one line after the in-terminal review:
+
+> 📄 Saved to `~/portfolio-rx-output/<filename>.md` (markdown) and `<filename>.html` (opened in browser — ⌘P to save as PDF).
+
+If the user has explicitly said "skip the file" or "just print to terminal," omit Step 6.5.
 
 ### Step 7 — Pre-emit self-check
 

@@ -33,7 +33,7 @@ Most junior portfolios fail here, which means everything downstream is moot. Don
 
 ### Apply the framework: Three Target Audiences
 
-Walk the portfolio through the three readers (cite by name — see `frameworks.md#three-target-audiences`):
+Walk the portfolio through the three readers (cite by name — see `frameworks-stream.md#three-target-audiences`):
 
 - **Recruiter** — skims the homepage value prop and the case-study housekeeping for KSA keyword match. Doesn't read narrative.
 - **Hiring manager** — reads case studies for problem framing, decisions, process.
@@ -43,9 +43,9 @@ Most junior portfolios optimize for the hiring manager and skip the recruiter an
 
 ### Flags
 
-- `Element: the hero. Cost: "Hi, I'm [name], a passionate designer creating user-centered digital experiences" passes the copy-paste test for any other portfolio — it's positioning anyone, which positions no one. Recruiter bounces in five seconds. Fix: write a value-prop sentence with all four parts — who you are, what you do, who it's for, the benefit. "Junior product designer. I ship onboarding flows for B2B SaaS. Targeting first product-design roles at Series A–B startups." See: frameworks.md#three-target-audiences.`
-- `Element: the body of work. Cost: SaaS dashboard + e-comm checkout + fitness app + B2B onboarding reads as "I'll take any role." Recruiter can't pattern-match you to a posting. Fix: pick a posture and put it in the hero. "I make complex B2B feel calm" or "I ship small consumer tools fast" — any specific posture beats the unstated everything-shape. The cut categories don't disappear; they get demoted to a "selected work" footnote. See: frameworks.md#brand-drivers.`
-- `Element: the about page. Cost: stock-photo headshot + one paragraph that could be on any designer's site. The future-peer audience can't tell what kind of teammate you'd be — and referrals are the strongest hiring channel. Fix: write the about page as a dating piece in a professional register. What you read, what you're learning, what kind of teams you do well in. Mash professional history into it (referrals look at both at once). See: frameworks.md#three-target-audiences.`
+- `Element: the hero. Cost: "Hi, I'm [name], a passionate designer creating user-centered digital experiences" passes the copy-paste test for any other portfolio — it's positioning anyone, which positions no one. Recruiter bounces in five seconds. Fix: write a value-prop sentence with all four parts — who you are, what you do, who it's for, the benefit. "Junior product designer. I ship onboarding flows for B2B SaaS. Targeting first product-design roles at Series A–B startups." See: frameworks-stream.md#three-target-audiences.`
+- `Element: the body of work. Cost: SaaS dashboard + e-comm checkout + fitness app + B2B onboarding reads as "I'll take any role." Recruiter can't pattern-match you to a posting. Fix: pick a posture and put it in the hero. "I make complex B2B feel calm" or "I ship small consumer tools fast" — any specific posture beats the unstated everything-shape. The cut categories don't disappear; they get demoted to a "selected work" footnote. See: frameworks-nate.md#brand-drivers.`
+- `Element: the about page. Cost: stock-photo headshot + one paragraph that could be on any designer's site. The future-peer audience can't tell what kind of teammate you'd be — and referrals are the strongest hiring channel. Fix: write the about page as a dating piece in a professional register. What you read, what you're learning, what kind of teams you do well in. Mash professional history into it (referrals look at both at once). See: frameworks-stream.md#three-target-audiences.`
 
 ---
 
@@ -66,11 +66,11 @@ Every case study opens with a housekeeping block that names:
 - **Tools used** (Figma, Maze, Mixpanel)
 - **Link** out to the live work, where applicable
 
-Apply the framework: **Housekeeping** (cite by name — see `frameworks.md#housekeeping`). Pairs with **KSAs** — housekeeping is where you seed the keywords the recruiter's ATS is scanning for.
+Apply the framework: **Housekeeping** (cite by name — see `frameworks-stream.md#housekeeping`). Pairs with **KSAs** — housekeeping is where you seed the keywords the recruiter's ATS is scanning for.
 
 ### Flags
 
-- `Element: the [project name] case study. Cost: opens directly on the problem statement. Recruiter has no factual anchor — can't tell what role you held, what tools, what scale. Fix: add a 5-line housekeeping block at the top. Role / timeline / industry / team / tools. Reads in five seconds; lets the recruiter triage. See: frameworks.md#housekeeping.`
+- `Element: the [project name] case study. Cost: opens directly on the problem statement. Recruiter has no factual anchor — can't tell what role you held, what tools, what scale. Fix: add a 5-line housekeeping block at the top. Role / timeline / industry / team / tools. Reads in five seconds; lets the recruiter triage. See: frameworks-stream.md#housekeeping.`
 - `Element: housekeeping language across case studies. Cost: every case study lists the same three tools and "Designer." Reads as boilerplate. Fix: differentiate by what was actually true on each project. If you owned interaction design on one and visual on another, name that. The housekeeping is part of the case study's argument, not a template field.`
 
 ---
@@ -83,7 +83,7 @@ The diagnostic for whether a case study earns its scroll. Most case studies fail
 
 Strip out all body content from the case study. Read **only the section titles**, top to bottom. If the titles tell the story by themselves, the case study passes. If the titles are format names that don't carry narrative, the case study fails.
 
-Apply the framework: **Read-the-Titles-Only Test** (cite by name — see `frameworks.md#titles-only-test`). The companion is **Children's Picture Book Rhetoric** — the case study should read closer to a picture book than an essay. Long content is fine; long *paragraphs* are not.
+Apply the framework: **Read-the-Titles-Only Test** (cite by name — see `frameworks-stream.md#titles-only-test`). The companion is **Children's Picture Book Rhetoric** — the case study should read closer to a picture book than an essay. Long content is fine; long *paragraphs* are not.
 
 ### What to look for
 
@@ -94,8 +94,8 @@ Apply the framework: **Read-the-Titles-Only Test** (cite by name — see `framew
 
 ### Flags
 
-- `Element: the section titles in the [project name] case study. Cost: titles read "Overview / Research / Process / Wireframes / Final Design / Impact." Hiring managers skim — they read titles, not paragraphs. Fix: rewrite each title as a story-bearing sentence. "Intro" → "Who is [project user]?", "Solution" → "What we shipped that finally moved the number." Apply the titles-only test: read the titles top to bottom; if they tell the story, you're done. See: frameworks.md#titles-only-test.`
-- `Element: the [project name] case study form factor. Cost: case study is mostly long paragraphs with few visuals — text leaks past 1000+ pixels wide and the reader bounces before the work registers. Fix: convert paragraphs into annotated images, captioned diagrams, before/after screenshots. Constrain body copy to ~600–800px wide. The image carries 80% of the load; the text supports. See: frameworks.md#picture-book.`
+- `Element: the section titles in the [project name] case study. Cost: titles read "Overview / Research / Process / Wireframes / Final Design / Impact." Hiring managers skim — they read titles, not paragraphs. Fix: rewrite each title as a story-bearing sentence. "Intro" → "Who is [project user]?", "Solution" → "What we shipped that finally moved the number." Apply the titles-only test: read the titles top to bottom; if they tell the story, you're done. See: frameworks-stream.md#titles-only-test.`
+- `Element: the [project name] case study form factor. Cost: case study is mostly long paragraphs with few visuals — text leaks past 1000+ pixels wide and the reader bounces before the work registers. Fix: convert paragraphs into annotated images, captioned diagrams, before/after screenshots. Constrain body copy to ~600–800px wide. The image carries 80% of the load; the text supports. See: frameworks-stream.md#picture-book.`
 
 ---
 
@@ -109,7 +109,7 @@ Bullets default to **What → How → Why** order: "Designed wireframes for the 
 
 Flip to **Why → How → What**: "Cut checkout drop-off from 38% to 22% by redesigning the address-confirmation step in Figma." Impact first, method middle, artifact last.
 
-Apply the framework: **What/How/Why ↔ Why/How/What** (cite by name — see `frameworks.md#what-how-why`). Headline rule, recurring across streams: *"if you follow a what-how-why approach, really hard to write a bad bullet."*
+Apply the framework: **What/How/Why ↔ Why/How/What** (cite by name — see `frameworks-stream.md#what-how-why`). Headline rule, recurring across streams: *"if you follow a what-how-why approach, really hard to write a bad bullet."*
 
 ### What to look for
 
@@ -119,9 +119,9 @@ Apply the framework: **What/How/Why ↔ Why/How/What** (cite by name — see `fr
 
 ### Flags
 
-- `Bullet says: "Designed wireframes for the checkout flow." Diagnostic: what was the result? Rewrite per Why/How/What: "Cut checkout drop-off 38% → 22% by redesigning the address-confirmation step (Mixpanel, Q3 2024, n=12K)." Why first. See: frameworks.md#what-how-why.`
-- `Bullet says: "Led end-to-end design for AI questionnaire workflows." Diagnostic: led to what? Rewrite per Why/How/What: "Improved efficiency 7x by leading end-to-end design for AI questionnaire workflows (internal tool, ~50 users)." Most impressive thing first. See: frameworks.md#what-how-why.`
-- `Element: the [project name] case-study TLDR. Cost: opens with "This project explored how to redesign the onboarding flow." Activity-first; reader has no reason to keep going. Fix per Why/How/What: lead with the outcome. "Cut activation time from 12 minutes to 4 minutes by collapsing onboarding from 9 steps to 4." Why first, then expand into how and what. See: frameworks.md#what-how-why.`
+- `Bullet says: "Designed wireframes for the checkout flow." Diagnostic: what was the result? Rewrite per Why/How/What: "Cut checkout drop-off 38% → 22% by redesigning the address-confirmation step (Mixpanel, Q3 2024, n=12K)." Why first. See: frameworks-stream.md#what-how-why.`
+- `Bullet says: "Led end-to-end design for AI questionnaire workflows." Diagnostic: led to what? Rewrite per Why/How/What: "Improved efficiency 7x by leading end-to-end design for AI questionnaire workflows (internal tool, ~50 users)." Most impressive thing first. See: frameworks-stream.md#what-how-why.`
+- `Element: the [project name] case-study TLDR. Cost: opens with "This project explored how to redesign the onboarding flow." Activity-first; reader has no reason to keep going. Fix per Why/How/What: lead with the outcome. "Cut activation time from 12 minutes to 4 minutes by collapsing onboarding from 9 steps to 4." Why first, then expand into how and what. See: frameworks-stream.md#what-how-why.`
 
 ---
 
@@ -137,7 +137,7 @@ Every case study lands one of three outcome shapes:
 2. **Soft metric / behavior change** — a shipped artifact, a user signal, a real consequence. "Shipped Q3 2024 to ~50K MAU; support tickets on the affected flow dropped from ~30/wk to ~5/wk." Or: "The team adopted this as the default pattern across three surfaces."
 3. **Honest non-outcome** — for projects that didn't ship, didn't get measured, or are too early. "Killed by leadership pivot — what I learned: should have stress-tested executive alignment before sketching." Or: "Internal tool, no instrumentation; planned to track adoption and time-to-first-action next."
 
-Apply the framework: **Hard Metrics vs Soft Metrics (Behavior Change)** (cite by name — see `frameworks.md#hard-soft-metrics`). When neither exists and the project is conceptual or NDA-blocked, escalate to **Prototyping with Numbers** (see `frameworks.md#prototyping-with-numbers`).
+Apply the framework: **Hard Metrics vs Soft Metrics (Behavior Change)** (cite by name — see `frameworks-stream.md#hard-soft-metrics`). When neither exists and the project is conceptual or NDA-blocked, escalate to **Prototyping with Numbers** (see `frameworks-stream.md#prototyping-with-numbers`).
 
 ### The drop list (banned outcome verbs, per voice.md §4)
 
@@ -153,9 +153,9 @@ These commit to nothing. They're filler.
 
 ### Flags
 
-- `Element: the outcome paragraph in the [project name] case study. Cost: outcome lives in paragraph 6. Hiring manager skims, sees process, leaves before the result. Fix: tease the outcome at the top of the case study, then expand it at the bottom. The customer-facing change leads ("checkout completion went from frustrating to one-tap"); the metric supports ("38% → 22% drop-off"). See: frameworks.md#hook-proof-story.`
-- `Element: the [project name] case study outcome. Cost: claims "45% engagement lift" on a student project with no real users — round-number metrics on un-instrumented work get clocked instantly. Fix: replace with what you'd have measured ("primary signal: task completion rate; secondary: time-on-task; n target: 30 over 2 weeks") + one honest sentence on why this didn't generate real data. Honesty signals more maturity than fake numbers. See: frameworks.md#hard-soft-metrics.`
-- `Element: the [project name] case study. Cost: shipped to internal users, no instrumentation cited, outcome paragraph reads "users responded positively." Fix: name the soft metric concretely. "Shipped Q3 2024; the support team flagged a 60% drop in tickets on this flow that quarter; team adopted the empty-state pattern across two adjacent surfaces." Behavior change is a valid outcome shape. See: frameworks.md#hard-soft-metrics.`
+- `Element: the outcome paragraph in the [project name] case study. Cost: outcome lives in paragraph 6. Hiring manager skims, sees process, leaves before the result. Fix: tease the outcome at the top of the case study, then expand it at the bottom. The customer-facing change leads ("checkout completion went from frustrating to one-tap"); the metric supports ("38% → 22% drop-off"). See: frameworks-stream.md#hook-proof-story.`
+- `Element: the [project name] case study outcome. Cost: claims "45% engagement lift" on a student project with no real users — round-number metrics on un-instrumented work get clocked instantly. Fix: replace with what you'd have measured ("primary signal: task completion rate; secondary: time-on-task; n target: 30 over 2 weeks") + one honest sentence on why this didn't generate real data. Honesty signals more maturity than fake numbers. See: frameworks-stream.md#hard-soft-metrics.`
+- `Element: the [project name] case study. Cost: shipped to internal users, no instrumentation cited, outcome paragraph reads "users responded positively." Fix: name the soft metric concretely. "Shipped Q3 2024; the support team flagged a 60% drop in tickets on this flow that quarter; team adopted the empty-state pattern across two adjacent surfaces." Behavior change is a valid outcome shape. See: frameworks-stream.md#hard-soft-metrics.`
 
 ---
 
@@ -165,7 +165,7 @@ The junior portfolio-count heuristic. If you have one project, that's a problem 
 
 ### Why this matters
 
-For first-job applications, three case studies at 80% beat one at 99%. The cost of the missing 20% on each is small. The cost of three missing case studies is large. (See `frameworks.md#the-80-percent-principle` for the underlying heuristic.)
+For first-job applications, three case studies at 80% beat one at 99%. The cost of the missing 20% on each is small. The cost of three missing case studies is large. (See `frameworks-nate.md#the-80-percent-principle` for the underlying heuristic.)
 
 For pivot-track and bootcamp portfolios, the failure mode is usually one polished case study (the bootcamp capstone) plus three fragments. Push the three fragments to 80%; ship all four. Don't keep polishing the polished one.
 
@@ -177,7 +177,7 @@ For pivot-track and bootcamp portfolios, the failure mode is usually one polishe
 
 ### Flags
 
-- `Element: the case-study count. Cost: one polished case study, no others. Reads as "I'm not ready yet." Fix: write up coursework, freelance, or unshipped work as additional case studies. Three case studies at 80% beats one at 99% for first-job applications. The fastest fix isn't another portfolio piece — it's writing up something you already did. See: frameworks.md#the-80-percent-principle.`
+- `Element: the case-study count. Cost: one polished case study, no others. Reads as "I'm not ready yet." Fix: write up coursework, freelance, or unshipped work as additional case studies. Three case studies at 80% beats one at 99% for first-job applications. The fastest fix isn't another portfolio piece — it's writing up something you already did. See: frameworks-nate.md#the-80-percent-principle.`
 - `Element: the case-study count. Cost: 10+ case studies on the index. Signals insecurity about quality — hiring managers assume the strongest two are buried. Fix: cut to 3–5. Curate to "what I want to be hired to do," not "what I've done." See: common-flags.md.`
 - `Element: the standalone "Projects" section on the resume. Cost: separating freelance/coursework/personal projects from "real" experience signals you don't think they count. Reviewer reads the first signal: "she's discounting this." Fix: roll personal/freelance/coursework into the experience section, chronologically, with the same bullet format as employed roles. See: common-flags.md#R07.`
 

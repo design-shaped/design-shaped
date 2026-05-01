@@ -191,7 +191,7 @@ When a project has no measured impact (research project, hackathon, NDA-blocked 
 **Applies to:** portfolio; both junior and senior, especially junior where most projects lack real shipped metrics.
 **Source:** @designshaped Friday-stream corpus — see mining-log.md (gitignored)
 **Frequency:** recurring (2+ streams)
-**Cross-ref:** ["outcomes and not outputs"](#outcomes-not-outputs) covers what to put in the outcome slot; this covers what to do when the slot is empty. See also `frameworks.md#prototyping-with-numbers`.
+**Cross-ref:** ["outcomes and not outputs"](#outcomes-not-outputs) covers what to put in the outcome slot; this covers what to do when the slot is empty. See also `frameworks-stream.md#prototyping-with-numbers`.
 
 ### H-S12 — Website is for personality; resume is for the machine
 Personality, voice, character, and brand belong on the portfolio website. The resume is for the ATS — keywords, parseable layout, factual content. Don't try to express personality through resume design; you'll lose ATS parseability and you don't have the surface area anyway.
