@@ -68,7 +68,7 @@ Portfolio Rx is an async clone of the Friday review stream. You drop in your mat
 - **Combined review** — when you supply both, the skill produces ONE prioritized fix list spanning both, plus an explicit resume↔portfolio coherence check (the distinguishing feature — "do the bullets and case studies tell the same story?").
 - **Mock interview** — list mode produces 8–12 questions Tim+Nate would actually ask of YOUR specific work; walkthrough mode role-plays a one-question-at-a-time conversation in joint Tim+Nate voice.
 
-**Voice:** direct, framework-named, no roasting. The skill cites 17 named frameworks (3 public-domain + 12 from Nate Bauer's published writing on [nabauer.com](https://nabauer.com/articles)) by name and applies them to your specific work. The brand line is the load-bearing rule: *no roasting, just collaboration and constructive feedback.*
+**Voice:** direct, framework-named, no roasting. The skill cites 25 named frameworks — 12 from [Nate Bauer's](https://nabauer.com/articles) published writing plus 13 mined from the @designshaped Friday-stream archive — by name and applies them to your specific work. The brand line is the load-bearing rule: *no roasting, just collaboration and constructive feedback.*
 
 **Junior vs. senior modes:** the skill branches on career stage. Junior gets a prescriptive rubric (junior portfolios fail in repeating ways). Senior gets a diagnostic rubric (extract your thesis, grade against that — senior portfolios fail individually).
 
@@ -155,18 +155,30 @@ If we wouldn't say it on Friday stream with the reviewee in the call, we don't w
 
 ## Status
 
-- **Version:** 0.1.0 (pre-launch)
-- **Last reviewed by Tim and Nate:** *TBD — voice-capture session pending.*
-- **Voice phrasing slots in `references/voice.md`** currently use `[Tim/Nate phrasing TBD]` placeholders. They'll be filled in a future markup session and replace the example shapes.
+- **Version:** 0.1.0 (pre-launch — M2 stream-mined content installed; v1.0.0 ships once Tim and Nate stamp acceptance per `qa/acceptance-log.md`).
+- **Last reviewed by Tim and Nate:** *Pending acceptance run. M2 mining of all 24 @designshaped Friday streams completed 2026-04-30.*
 
-The skill ships with a v0 of every content file:
-- 25 starter critique patterns in `references/common-flags.md` (mined from public design-review writing).
-- 17 named frameworks in `references/frameworks.md` (3 public-domain + 12 from [nabauer.com](https://nabauer.com/articles)).
-- 17 verbatim heuristics in `references/heuristics.md` (from Nate's published writing).
+Content the skill currently ships:
 
-Patterns will be refined incrementally as new Friday-stream transcripts are mined.
+- **`references/common-flags.md`** — 26 critique patterns (16 portfolio + 10 resume) mined from 23 Friday-stream transcripts.
+- **`references/frameworks.md`** — 25 named frameworks: 12 from [nabauer.com](https://nabauer.com/articles) plus 13 joint Tim+Nate frameworks mined from the streams (What/How/Why bullets, Three Target Audiences, Housekeeping, Trust Ladder, Centralized vs Decentralized Environments, Read-the-Titles-Only Test, Children's Picture Book Rhetoric, JJJ, KSAs, Hook→Proof→Story, Hard vs Soft Metrics, Prototyping with Numbers, Designer Niche Scales).
+- **`references/heuristics.md`** — 37 heuristics: 17 verbatim from [nabauer.com](https://nabauer.com/articles) plus 20 stream-mined.
+- **`references/voice.md`** — 14 ❌/✅ pair examples + the anti-roast 4-clause rule + the joint Tim+Nate voice register, all sourced from the stream archive.
+- **`references/rubric-junior.md`** — prescriptive rubric anchored to positioning, housekeeping, why-how-what bullets, the three audiences, and Tim's "apply up" rhetoric.
+- **`references/rubric-senior.md`** — diagnostic rubric anchored to target environment (centralized vs decentralized), the bet at the top of case studies, and scope language as senior tell.
 
-**Issues / contributions:** open a GitHub issue with a portfolio-rx run that produced bad output. Pattern updates from streams happen on a quarterly cadence.
+Pattern refresh happens on a quarterly cadence as new streams air.
+
+**Issues / contributions:** open a GitHub issue (URL TBD) with a portfolio-rx run that produced bad output, or a transcript-mining find we missed. PRs welcome from designers who watch the stream and have evidence of patterns we haven't captured.
+
+---
+
+## Authors
+
+- **Tim Gailey** — co-host, Design Shaped Friday review stream.
+- **Nate Bauer** — co-host, Design Shaped Friday review stream. Author of the 12 frameworks + 17 heuristics on [nabauer.com/articles](https://nabauer.com/articles) that anchor the skill.
+
+The skill is the joint Friday-review voice. Both authors review pattern updates before they ship.
 
 ---
 
