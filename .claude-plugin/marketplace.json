@@ -8,7 +8,7 @@
     {
       "name": "portfolio-rx",
       "source": "./plugins/portfolio-rx",
-      "description": "Designer portfolio + resume review in the Design Shaped voice — direct, framework-named, no roasting. Built for portfolio URLs, resume PDFs, Figma case studies, and mock-interview prep.",
+      "description": "Review designer portfolios in Tim+Nate's Friday-stream voice — direct, framework-named, no roasting. Use for portfolio URLs, Figma case studies, or design mock-interview prep. (For resumes, use resume-rx.)",
       "version": "0.2.0",
       "author": {
         "name": "Tim Gailey and Nate Bauer"
@@ -17,6 +17,19 @@
       "homepage": "https://www.youtube.com/@designshaped/",
       "repository": "https://github.com/design-shaped/design-shaped",
       "keywords": ["design", "portfolio", "resume", "ux", "ui", "product-design", "review", "career"]
+    },
+    {
+      "name": "resume-rx",
+      "source": "./plugins/resume-rx",
+      "description": "Resume writing help in Tim+Nate's Design Shaped voice. Line-edit drafts, brainstorm bullets, or draft from achievement lists. Junior to staff designers. Resume-only — for portfolio review use portfolio-rx.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Tim Gailey and Nate Bauer"
+      },
+      "license": "MIT",
+      "homepage": "https://www.youtube.com/@designshaped/",
+      "repository": "https://github.com/design-shaped/design-shaped",
+      "keywords": ["design", "resume", "ux", "ui", "product-design", "career", "writing", "design-shaped"]
     },
     {
       "name": "get-stuff-done",

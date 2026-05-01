@@ -1,0 +1,12 @@
+{
+  "name": "resume-rx",
+  "version": "0.1.0",
+  "description": "Resume writing help in Tim+Nate's Design Shaped voice. Line-edit drafts, brainstorm bullets, or draft from achievement lists. Junior to staff designers. Resume-only — for portfolio review use portfolio-rx.",
+  "author": {
+    "name": "Tim Gailey and Nate Bauer"
+  },
+  "license": "MIT",
+  "homepage": "https://www.youtube.com/@designshaped/",
+  "repository": "https://github.com/design-shaped/design-shaped",
+  "keywords": ["design", "resume", "ux", "ui", "product-design", "career", "writing", "design-shaped"]
+}
