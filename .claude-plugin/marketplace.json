@@ -1,6 +1,6 @@
 {
   "name": "design-shaped",
-  "description": "Plugins from the Design Shaped Friday review stream — async clones of the joint Tim+Nate voice for portfolio + resume review and design coaching.",
+  "description": "Plugins from Tim Gailey + Nate Bauer's Design Shaped mentorship — design coaching, productivity, and AI tooling for designers and design-leaning builders.",
   "owner": {
     "name": "Tim Gailey and Nate Bauer"
   },
@@ -17,6 +17,21 @@
       "homepage": "https://www.youtube.com/@designshaped/",
       "repository": "https://github.com/design-shaped/design-shaped",
       "keywords": ["design", "portfolio", "resume", "ux", "ui", "product-design", "review", "career"]
+    },
+    {
+      "name": "get-stuff-done",
+      "source": {
+        "source": "github",
+        "repo": "artisticmedic/tim-gsd"
+      },
+      "description": "Structured build pipeline — interview, spec, roadmap, per-phase plan+execute, goal-backward verify. Trigger on \"build\", \"let's build\", \"spec this\", \"scope this\". Supports --auto and --chain modes.",
+      "author": {
+        "name": "Tim Gailey"
+      },
+      "license": "MIT",
+      "homepage": "https://github.com/artisticmedic/tim-gsd",
+      "repository": "https://github.com/artisticmedic/tim-gsd",
+      "keywords": ["productivity", "planning", "build-pipeline", "spec", "roadmap", "ai-workflow", "design-shaped"]
     }
   ]
 }
