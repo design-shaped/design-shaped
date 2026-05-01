@@ -15,6 +15,7 @@
       },
       "license": "MIT",
       "homepage": "https://www.youtube.com/@designshaped/",
+      "repository": "https://github.com/design-shaped/design-shaped",
       "keywords": ["design", "portfolio", "resume", "ux", "ui", "product-design", "review", "career"]
     }
   ]

@@ -22,19 +22,16 @@ Add this marketplace to Claude Code, then install the plugin you want.
 
 ```bash
 # In any Claude Code session:
-/plugin marketplace add <github-url-tbd>
-
-# Then:
+/plugin marketplace add design-shaped/design-shaped
 /plugin install portfolio-rx@design-shaped
 ```
 
-> The GitHub URL is TBD — Tim and Nate are choosing the org/account. Once published, the install command above is the canonical path.
+> The marketplace repo is currently private (pre-acceptance). Collaborators added to the `design-shaped` GitHub org can install via the command above. After Tim+Nate stamp acceptance, the repo flips public and anyone can install.
 
-To install **locally** (during dev or before the public push):
+To install **locally** during plugin development (skip GitHub round-trip):
 
 ```bash
-# Clone the marketplace repo
-git clone <repo-url> ~/projects/design-shaped
+git clone https://github.com/design-shaped/design-shaped ~/projects/design-shaped
 
 # In Claude Code:
 /plugin marketplace add ~/projects/design-shaped
@@ -101,7 +98,7 @@ MIT. See [LICENSE](./LICENSE). One license covers the marketplace and all plugin
 
 ## Issues / contributions
 
-Open a GitHub issue (URL TBD) with:
+Open a [GitHub issue](https://github.com/design-shaped/design-shaped/issues) with:
 - A plugin run that produced bad output (with sanitized inputs if possible).
 - A pattern you've seen on the Friday stream that we missed.
 

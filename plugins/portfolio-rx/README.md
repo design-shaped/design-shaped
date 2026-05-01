@@ -82,14 +82,16 @@ Portfolio Rx ships as part of the [Design Shaped marketplace](../../README.md). 
 
 ```bash
 # In any Claude Code session:
-/plugin marketplace add <github-url-tbd>
+/plugin marketplace add design-shaped/design-shaped
 /plugin install portfolio-rx@design-shaped
 ```
 
-> **GitHub URL:** TBD. Tim+Nate's account / org is being decided. Until the public push, install locally:
+> The marketplace repo is currently private (pre-acceptance). Collaborators added to the `design-shaped` GitHub org can install via the command above. After Tim+Nate stamp acceptance, the repo flips public and anyone can install.
+>
+> To install locally during dev:
 >
 > ```bash
-> git clone <repo-url> ~/projects/design-shaped
+> git clone https://github.com/design-shaped/design-shaped ~/projects/design-shaped
 >
 > # In Claude Code:
 > /plugin marketplace add ~/projects/design-shaped
@@ -181,7 +183,7 @@ Content the skill currently ships:
 
 Pattern refresh happens on a quarterly cadence as new streams air.
 
-**Issues / contributions:** open a GitHub issue (URL TBD) with a portfolio-rx run that produced bad output, or a transcript-mining find we missed. PRs welcome from designers who watch the stream and have evidence of patterns we haven't captured.
+**Issues / contributions:** open a [GitHub issue](https://github.com/design-shaped/design-shaped/issues) with a portfolio-rx run that produced bad output, or a transcript-mining find we missed. PRs welcome from designers who watch the stream and have evidence of patterns we haven't captured.
 
 ---
 
