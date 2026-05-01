@@ -78,18 +78,30 @@ Portfolio Rx is an async clone of the Friday review stream. You drop in your mat
 
 ## Install
 
+Portfolio Rx ships as part of the [Design Shaped marketplace](../../README.md). Install via Claude Code's plugin manager:
+
 ```bash
-git clone https://github.com/[USER]/portfolio-rx.git ~/.claude/skills/portfolio-rx
+# In any Claude Code session:
+/plugin marketplace add <github-url-tbd>
+/plugin install portfolio-rx@design-shaped
 ```
 
-> **GitHub URL:** TBD. Tim+Nate's account / org is being decided. The clone destination is `~/.claude/skills/portfolio-rx/` regardless.
+> **GitHub URL:** TBD. Tim+Nate's account / org is being decided. Until the public push, install locally:
+>
+> ```bash
+> git clone <repo-url> ~/projects/design-shaped
+>
+> # In Claude Code:
+> /plugin marketplace add ~/projects/design-shaped
+> /plugin install portfolio-rx@design-shaped
+> ```
 
 **Verify:** open Claude Code in any directory and type `review my portfolio` (or any phrase from the [How to invoke](#how-to-invoke) section). The skill should fire and ask you for inputs.
 
 If the skill doesn't trigger, check that:
-- The repo cloned to exactly `~/.claude/skills/portfolio-rx/` (not a nested folder).
-- `~/.claude/skills/portfolio-rx/SKILL.md` exists with valid YAML frontmatter.
-- You're on a recent Claude Code build that supports user-level skills.
+- `/plugin list` shows `portfolio-rx@design-shaped` as installed.
+- The marketplace was added successfully (`/plugin marketplace list`).
+- You're on a recent Claude Code build that supports plugins.
 
 ---
 
