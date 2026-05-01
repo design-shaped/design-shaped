@@ -21,8 +21,8 @@
     {
       "name": "get-stuff-done",
       "source": {
-        "source": "github",
-        "repo": "artisticmedic/tim-gsd"
+        "source": "url",
+        "url": "https://github.com/artisticmedic/tim-gsd.git"
       },
       "description": "Structured build pipeline — interview, spec, roadmap, per-phase plan+execute, goal-backward verify. Trigger on \"build\", \"let's build\", \"spec this\", \"scope this\". Supports --auto and --chain modes.",
       "author": {
