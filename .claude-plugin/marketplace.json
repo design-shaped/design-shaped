@@ -9,7 +9,7 @@
       "name": "portfolio-rx",
       "source": "./plugins/portfolio-rx",
       "description": "Designer portfolio + resume review in the Design Shaped voice — direct, framework-named, no roasting. Built for portfolio URLs, resume PDFs, Figma case studies, and mock-interview prep.",
-      "version": "0.2.0-dev",
+      "version": "0.2.0",
       "author": {
         "name": "Tim Gailey and Nate Bauer"
       },
