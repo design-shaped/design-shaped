@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-rx",
+  "version": "0.1.0",
+  "description": "Review designer portfolios and resumes in Tim+Nate's Friday-stream voice — direct, framework-named, no roasting.",
+  "author": {
+    "name": "Tim Gailey and Nate Bauer"
+  },
+  "license": "MIT",
+  "homepage": "https://www.youtube.com/@designshaped/",
+  "keywords": ["design", "portfolio", "resume", "ux", "ui", "product-design", "review", "career"]
+}

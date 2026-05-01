@@ -1,0 +1,21 @@
+{
+  "name": "design-shaped",
+  "description": "Plugins from the Design Shaped Friday review stream — async clones of the joint Tim+Nate voice for portfolio + resume review and design coaching.",
+  "owner": {
+    "name": "Tim Gailey and Nate Bauer"
+  },
+  "plugins": [
+    {
+      "name": "portfolio-rx",
+      "source": "./plugins/portfolio-rx",
+      "description": "Async clone of the @designshaped Friday-stream portfolio + resume review. Direct, framework-named, no roasting.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Tim Gailey and Nate Bauer"
+      },
+      "license": "MIT",
+      "homepage": "https://www.youtube.com/@designshaped/",
+      "keywords": ["design", "portfolio", "resume", "ux", "ui", "product-design", "review", "career"]
+    }
+  ]
+}
