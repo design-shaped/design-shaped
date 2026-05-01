@@ -1,6 +1,6 @@
 ---
 name: Portfolio Rx
-description: Review designer portfolios and resumes in Tim+Nate's Friday-stream voice — direct, framework-named, no roasting. Use for portfolio URLs, resume PDFs, Figma case studies, or design mock-interview prep.
+description: Review designer portfolios in Tim+Nate's Friday-stream voice — direct, framework-named, no roasting. Use for portfolio URLs, Figma case studies, or design mock-interview prep. (For resumes, use resume-rx.)
 ---
 
 # Portfolio Rx
