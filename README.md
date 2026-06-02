@@ -10,9 +10,11 @@ A Claude Code plugin marketplace for designers. Async clones of the [Design Shap
 
 | Plugin | Status | What it does |
 |--------|--------|--------------|
-| [`portfolio-rx`](./plugins/portfolio-rx/README.md) | v0.1.0 (pre-acceptance) | Tim+Nate-flavored review for designer portfolios and resumes. |
+| [`portfolio-rx`](./plugins/portfolio-rx/README.md) | v0.2.0 · pre-acceptance | Review designer portfolios + Figma case studies in the Friday-stream voice — direct, framework-named, no roasting. |
+| [`resume-rx`](./plugins/resume-rx/README.md) | v0.1.0 · pre-acceptance | Resume writing + line-editing in the Design Shaped voice. Junior to staff designers. |
+| `get-stuff-done` | external | Structured build pipeline — interview → spec → roadmap → plan/execute → verify. Sourced from [`tim-gsd`](https://github.com/artisticmedic/tim-gsd). |
 
-More plugins to come — resume mock-interview as a standalone, Figma case-study reviewer, stream-mining quarterly refresh, and the Design Shaped reading list have all been scoped. They land here when they're built.
+**Pre-acceptance:** Tim+Nate are still refining patterns before stamping any plugin v1.0.0. Also scoped but not yet built: a Figma case-study reviewer, a stream-mining quarterly refresh, and the Design Shaped reading list.
 
 ---
 
@@ -23,7 +25,8 @@ Add this marketplace to Claude Code, then install the plugin you want.
 ```bash
 # In any Claude Code session:
 /plugin marketplace add design-shaped/design-shaped
-/plugin install portfolio-rx@design-shaped
+/plugin install portfolio-rx@design-shaped   # portfolio + Figma case-study review
+/plugin install resume-rx@design-shaped       # resume writing + line-edit
 ```
 
 > The marketplace repo is currently private (pre-acceptance). Collaborators added to the `design-shaped` GitHub org can install via the command above. After Tim+Nate stamp acceptance, the repo flips public and anyone can install.
@@ -58,26 +61,26 @@ Per-plugin privacy notes (e.g. portfolio-rx fetching portfolio URLs via WebFetch
 design-shaped/
 ├── .claude-plugin/
 │   └── marketplace.json     # Catalog (lists portfolio-rx today, more later)
-├── plugins/
-│   └── portfolio-rx/        # Plugin 1
-│       ├── .claude-plugin/
-│       │   └── plugin.json  # Plugin manifest
-│       ├── README.md        # Plugin docs (humans)
-│       ├── CLAUDE.md        # Plugin conventions (Claude)
-│       └── skills/
-│           └── portfolio-rx/
-│               ├── SKILL.md
-│               ├── references/
-│               ├── workflows/
-│               ├── qa/
-│               ├── gotchas.md
-│               └── mining-log.md  # gitignored — never published
+├── plugins/                 # local plugins — one self-contained dir each
+│   ├── portfolio-rx/        # v0.2.0
+│   │   ├── .claude-plugin/
+│   │   │   └── plugin.json  # Plugin manifest
+│   │   ├── README.md        # Plugin docs (humans)
+│   │   ├── CLAUDE.md        # Plugin conventions (Claude)
+│   │   └── skills/portfolio-rx/
+│   │       ├── SKILL.md
+│   │       ├── references/  workflows/  qa/
+│   │       ├── gotchas.md
+│   │       └── mining-log.md  # gitignored — never published
+│   └── resume-rx/           # v0.1.0 — same shape
 ├── LICENSE                  # MIT, Tim Gailey + Nate Bauer
 ├── README.md                # ← you are here
 └── CLAUDE.md                # marketplace-level conventions
 ```
 
-Each plugin is a self-contained directory under `plugins/`. Adding a new plugin = scaffold its directory, register it in `marketplace.json`, write its own README + CLAUDE.md.
+`get-stuff-done` is an **external** source (`artisticmedic/tim-gsd`) — registered in `marketplace.json` but not vendored as a directory here.
+
+Each local plugin is a self-contained directory under `plugins/`. Adding a new plugin = scaffold its directory, register it in `marketplace.json`, write its own README + CLAUDE.md.
 
 ---
 
