@@ -21,10 +21,10 @@ Plugin-level `CLAUDE.md` files cover plugin-specific conventions (voice, content
 
 ## Where the planning artifacts live
 
-The build artifacts (SPECs, REQUIREMENTS, ROADMAPs, research, per-phase CONTEXT.md and PLAN.md files) live OUTSIDE this repo, in:
+The build artifacts (SPECs, REQUIREMENTS, ROADMAPs, research, per-phase CONTEXT.md and PLAN.md files) live OUTSIDE this repo, in the maintainers' local planning workspace:
 
 ```
-/Users/timothygailey/projects/design-shaped/.planning/builds/<plugin-name>/
+<local projects dir>/design-shaped/.planning/builds/<plugin-name>/
 ```
 
 For portfolio-rx specifically:
